@@ -112,6 +112,7 @@ var annotated_dup =
     [ "Weather", "interfaceWeather.html", null ],
     [ "WheatPlant", "interfaceWheatPlant.html", null ],
     [ "Window", "interfaceWindow.html", null ],
+    [ "WindowInfo", "structWindowInfo.html", null ],
     [ "Wire", "interfaceWire.html", null ],
     [ "WirePathCreator", "interfaceWirePathCreator.html", null ],
     [ "Workbench", "interfaceWorkbench.html", null ],

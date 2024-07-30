@@ -187,6 +187,11 @@ var hierarchy =
     [ "Tile", "structTile.html", null ],
     [ "Vector", "classVector.html", null ],
     [ "Vector2", "classVector2.html", null ],
+    [ "Vector< ClientMacroBlockRequest, std::__1::allocator< ClientMacroBlockRequest > >", "classVector.html", null ],
+    [ "Vector< Projectile *, std::__1::allocator< Projectile * > >", "classVector.html", null ],
+    [ "Vector< unsigned short, std::__1::allocator< unsigned short > >", "classVector.html", null ],
+    [ "Vector< Vector2, std::__1::allocator< Vector2 > >", "classVector.html", null ],
+    [ "WindowInfo", "structWindowInfo.html", null ],
     [ "<WorldDelegate>", null, [
       [ "GameController", "interfaceGameController.html", null ]
     ] ]
