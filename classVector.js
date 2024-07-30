@@ -5,6 +5,7 @@ var classVector =
     [ "Vector", "classVector.html#a6f80c73b5f18dcf3f8e36065bdc8b9e5", null ],
     [ "length", "classVector.html#acf99abd53082998549b1456758eee7d0", null ],
     [ "lengthSquared", "classVector.html#a3a5436defffa64b4be34631880b692f0", null ],
+    [ "normal", "classVector.html#a630322761243c82a9b9dc239e6b461a0", null ],
     [ "operator*", "classVector.html#aba5319df670eccc10639b3618a7785fc", null ],
     [ "operator*", "classVector.html#accb048618e25c83507cfad85ee92dbf6", null ],
     [ "operator+", "classVector.html#aa09f94a073b42cdbf590dbbaec6d1cd2", null ],
