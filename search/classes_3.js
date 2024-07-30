@@ -14,5 +14,6 @@ var searchData=
   ['commandlinedelegate_11',['CommandLineDelegate',['../interfaceCommandLineDelegate.html',1,'']]],
   ['cornplant_12',['CornPlant',['../interfaceCornPlant.html',1,'']]],
   ['craftableitemobject_13',['CraftableItemObject',['../interfaceCraftableItemObject.html',1,'']]],
-  ['crystalmanager_14',['CrystalManager',['../interfaceCrystalManager.html',1,'']]]
+  ['crystalmanager_14',['CrystalManager',['../interfaceCrystalManager.html',1,'']]],
+  ['customrules_15',['CustomRules',['../structCustomRules.html',1,'']]]
 ];

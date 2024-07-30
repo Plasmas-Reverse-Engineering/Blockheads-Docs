@@ -18,6 +18,7 @@ var hierarchy =
     [ "<CraftProgressCraftingObject>", null, [
       [ "Workbench", "interfaceWorkbench.html", null ]
     ] ],
+    [ "CustomRules", "structCustomRules.html", null ],
     [ "DynamicObject< HarmableDynamicObject >", "interfaceDynamicObject.html", null ],
     [ "DynamicObject< PathUserDynamicObject >", "interfaceDynamicObject.html", null ],
     [ "DynamicObject< ProxyObjectOwner >", "interfaceDynamicObject.html", null ],
@@ -185,6 +186,7 @@ var hierarchy =
       [ "TrainCar", "interfaceTrainCar.html", null ]
     ] ],
     [ "Tile", "structTile.html", null ],
+    [ "TradeMission", "structTradeMission.html", null ],
     [ "Vector", "classVector.html", null ],
     [ "Vector2", "classVector2.html", null ],
     [ "Vector< ClientMacroBlockRequest, std::__1::allocator< ClientMacroBlockRequest > >", "classVector.html", null ],
