@@ -5,7 +5,9 @@ var searchData=
   ['mapletree_2',['MapleTree',['../interfaceMapleTree.html',1,'']]],
   ['maxheightgenevariation_3',['maxHeightGeneVariation',['../interfaceTree.html#a4eacc040410a375a584237ec8ec3cea6',1,'Tree']]],
   ['mirror_4',['Mirror',['../interfaceMirror.html',1,'']]],
-  ['mjmultisound_5',['MJMultiSound',['../interfaceMJMultiSound.html',1,'']]],
-  ['mjsound_6',['MJSound',['../interfaceMJSound.html',1,'']]],
-  ['mjsoundmanager_7',['MJSoundManager',['../interfaceMJSoundManager.html',1,'']]]
+  ['mjcolor_5',['MJColor',['../structMJColor.html',1,'']]],
+  ['mjcolor8_6',['MJColor8',['../structMJColor8.html',1,'']]],
+  ['mjmultisound_7',['MJMultiSound',['../interfaceMJMultiSound.html',1,'']]],
+  ['mjsound_8',['MJSound',['../interfaceMJSound.html',1,'']]],
+  ['mjsoundmanager_9',['MJSoundManager',['../interfaceMJSoundManager.html',1,'']]]
 ];

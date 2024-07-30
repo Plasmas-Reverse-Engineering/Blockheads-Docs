@@ -42,6 +42,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "intpair", "structintpair.html", null ],
+    [ "MJColor", "structMJColor.html", null ],
+    [ "MJColor8", "structMJColor8.html", null ],
     [ "<NSNetServiceDelegate>", null, [
       [ "BHNetServerMatch", "interfaceBHNetServerMatch.html", null ]
     ] ],
@@ -183,6 +185,8 @@ var hierarchy =
       [ "TrainCar", "interfaceTrainCar.html", null ]
     ] ],
     [ "Tile", "structTile.html", null ],
+    [ "Vector", "classVector.html", null ],
+    [ "Vector2", "classVector2.html", null ],
     [ "<WorldDelegate>", null, [
       [ "GameController", "interfaceGameController.html", null ]
     ] ]
