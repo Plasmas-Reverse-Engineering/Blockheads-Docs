@@ -44,8 +44,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"interfaceGemTree.html#a3178993add1776a1e0499cd9f186ccc6",
-"interfaceTulipPlant.html"
+"interfaceGemTree.html#a256be4bc5c772ba2dea25841f39acf15",
+"interfaceTree.html#ac5a308223d04dc242af8d5b5a4983d84"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

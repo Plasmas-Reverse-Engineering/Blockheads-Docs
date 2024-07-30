@@ -15,18 +15,25 @@ var hierarchy =
     [ "<BHNetNodeDelegate>", null, [
       [ "GameController", "interfaceGameController.html", null ]
     ] ],
+    [ "BlockheadDamageNetRequest", "structBlockheadDamageNetRequest.html", null ],
+    [ "BlockheadState", "structBlockheadState.html", null ],
+    [ "CraftableItem", "structCraftableItem.html", null ],
     [ "<CraftProgressCraftingObject>", null, [
       [ "Workbench", "interfaceWorkbench.html", null ]
     ] ],
     [ "CustomRules", "structCustomRules.html", null ],
+    [ "DrawBlock", "structDrawBlock.html", null ],
     [ "DynamicObject< HarmableDynamicObject >", "interfaceDynamicObject.html", null ],
     [ "DynamicObject< PathUserDynamicObject >", "interfaceDynamicObject.html", null ],
     [ "DynamicObject< ProxyObjectOwner >", "interfaceDynamicObject.html", null ],
     [ "DynamicObject< RidableDynamicObject >", "interfaceDynamicObject.html", null ],
     [ "DynamicObjectNetData", "structDynamicObjectNetData.html", null ],
+    [ "ElectricityParticleHeader", "structElectricityParticleHeader.html", null ],
+    [ "FillNetRequest", "structFillNetRequest.html", null ],
     [ "<GameControllerDelegate>", null, [
       [ "CommandLineDelegate", "interfaceCommandLineDelegate.html", null ]
     ] ],
+    [ "GatherRequest", "structGatherRequest.html", null ],
     [ "<HarmableDynamicObject>", null, [
       [ "Blockhead", "interfaceBlockhead.html", null ],
       [ "NPC", "interfaceNPC.html", [
@@ -43,6 +50,7 @@ var hierarchy =
       ] ]
     ] ],
     [ "intpair", "structintpair.html", null ],
+    [ "MacroTile", "structMacroTile.html", null ],
     [ "MJColor", "structMJColor.html", null ],
     [ "MJColor8", "structMJColor8.html", null ],
     [ "<NSNetServiceDelegate>", null, [
@@ -157,18 +165,25 @@ var hierarchy =
       [ "WorldHelper", "interfaceWorldHelper.html", null ],
       [ "WorldTileLoader", "interfaceWorldTileLoader.html", null ]
     ] ],
+    [ "PaintNetRequest", "structPaintNetRequest.html", null ],
     [ "<PathUserDynamicObject>", null, [
       [ "Blockhead", "interfaceBlockhead.html", null ],
       [ "CaveTroll", "interfaceCaveTroll.html", null ]
     ] ],
+    [ "PhysicalBlock", "structPhysicalBlock.html", null ],
+    [ "PlaceInteractionObjectNetRequest", "structPlaceInteractionObjectNetRequest.html", null ],
+    [ "PlaceWorkbenchNetRequest", "structPlaceWorkbenchNetRequest.html", null ],
     [ "PlantCreationNetData", "structPlantCreationNetData.html", null ],
     [ "<PowerUser>", null, [
       [ "ElevatorMotor", "interfaceElevatorMotor.html", null ],
       [ "Workbench", "interfaceWorkbench.html", null ]
     ] ],
+    [ "ProjectileNetRequest", "structProjectileNetRequest.html", null ],
     [ "<ProxyObjectOwner>", null, [
       [ "FreightCar", "interfaceFreightCar.html", null ]
     ] ],
+    [ "RemoveBackWallNetRequest", "structRemoveBackWallNetRequest.html", null ],
+    [ "RemoveNetRequest", "structRemoveNetRequest.html", null ],
     [ "<RidableDynamicObject>", null, [
       [ "Boat", "interfaceBoat.html", null ],
       [ "NPC", "interfaceNPC.html", null ],
@@ -196,5 +211,6 @@ var hierarchy =
     [ "WindowInfo", "structWindowInfo.html", null ],
     [ "<WorldDelegate>", null, [
       [ "GameController", "interfaceGameController.html", null ]
-    ] ]
+    ] ],
+    [ "WorldHeartbeat", "structWorldHeartbeat.html", null ]
 ];

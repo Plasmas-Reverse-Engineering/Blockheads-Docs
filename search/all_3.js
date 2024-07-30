@@ -14,7 +14,8 @@ var searchData=
   ['column_11',['Column',['../interfaceColumn.html',1,'']]],
   ['commandlinedelegate_12',['CommandLineDelegate',['../interfaceCommandLineDelegate.html',1,'']]],
   ['cornplant_13',['CornPlant',['../interfaceCornPlant.html',1,'']]],
-  ['craftableitemobject_14',['CraftableItemObject',['../interfaceCraftableItemObject.html',1,'']]],
-  ['crystalmanager_15',['CrystalManager',['../interfaceCrystalManager.html',1,'']]],
-  ['customrules_16',['CustomRules',['../structCustomRules.html',1,'']]]
+  ['craftableitem_14',['CraftableItem',['../structCraftableItem.html',1,'']]],
+  ['craftableitemobject_15',['CraftableItemObject',['../interfaceCraftableItemObject.html',1,'']]],
+  ['crystalmanager_16',['CrystalManager',['../interfaceCrystalManager.html',1,'']]],
+  ['customrules_17',['CustomRules',['../structCustomRules.html',1,'']]]
 ];

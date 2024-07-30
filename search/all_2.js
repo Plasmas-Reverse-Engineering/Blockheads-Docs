@@ -9,6 +9,8 @@ var searchData=
   ['blockhead_6',['Blockhead',['../interfaceBlockhead.html',1,'']]],
   ['blockheadai_7',['BlockheadAI',['../interfaceBlockheadAI.html',1,'']]],
   ['blockheadcraftableitemobject_8',['BlockheadCraftableItemObject',['../interfaceBlockheadCraftableItemObject.html',1,'']]],
-  ['blockheads_9',['Blockheads',['../index.html',1,'']]],
-  ['boat_10',['Boat',['../interfaceBoat.html',1,'']]]
+  ['blockheaddamagenetrequest_9',['BlockheadDamageNetRequest',['../structBlockheadDamageNetRequest.html',1,'']]],
+  ['blockheads_10',['Blockheads',['../index.html',1,'']]],
+  ['blockheadstate_11',['BlockheadState',['../structBlockheadState.html',1,'']]],
+  ['boat_12',['Boat',['../interfaceBoat.html',1,'']]]
 ];

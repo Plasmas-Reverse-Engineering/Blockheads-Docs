@@ -10,6 +10,7 @@ var searchData=
   ['workbench_7',['Workbench',['../interfaceWorkbench.html',1,'']]],
   ['world_8',['World',['../interfaceWorld.html',1,'']]],
   ['worldchanged_3a_9',['worldChanged:',['../interfaceTree.html#a699c1b03aa6d53b5859a30a713f6dff0',1,'Tree']]],
-  ['worldhelper_10',['WorldHelper',['../interfaceWorldHelper.html',1,'']]],
-  ['worldtileloader_11',['WorldTileLoader',['../interfaceWorldTileLoader.html',1,'']]]
+  ['worldheartbeat_10',['WorldHeartbeat',['../structWorldHeartbeat.html',1,'']]],
+  ['worldhelper_11',['WorldHelper',['../interfaceWorldHelper.html',1,'']]],
+  ['worldtileloader_12',['WorldTileLoader',['../interfaceWorldTileLoader.html',1,'']]]
 ];

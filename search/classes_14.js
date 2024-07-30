@@ -8,6 +8,7 @@ var searchData=
   ['wirepathcreator_5',['WirePathCreator',['../interfaceWirePathCreator.html',1,'']]],
   ['workbench_6',['Workbench',['../interfaceWorkbench.html',1,'']]],
   ['world_7',['World',['../interfaceWorld.html',1,'']]],
-  ['worldhelper_8',['WorldHelper',['../interfaceWorldHelper.html',1,'']]],
-  ['worldtileloader_9',['WorldTileLoader',['../interfaceWorldTileLoader.html',1,'']]]
+  ['worldheartbeat_8',['WorldHeartbeat',['../structWorldHeartbeat.html',1,'']]],
+  ['worldhelper_9',['WorldHelper',['../interfaceWorldHelper.html',1,'']]],
+  ['worldtileloader_10',['WorldTileLoader',['../interfaceWorldTileLoader.html',1,'']]]
 ];
