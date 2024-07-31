@@ -49,6 +49,7 @@ var hierarchy =
         [ "Shark", "interfaceShark.html", null ]
       ] ]
     ] ],
+    [ "InteractionObjectCreationNetData", "structInteractionObjectCreationNetData.html", null ],
     [ "intpair", "structintpair.html", null ],
     [ "MacroTile", "structMacroTile.html", null ],
     [ "MJColor", "structMJColor.html", null ],

@@ -65,6 +65,7 @@ var annotated_dup =
     [ "GlowBlock", "interfaceGlowBlock.html", "interfaceGlowBlock" ],
     [ "HandCar", "interfaceHandCar.html", "interfaceHandCar" ],
     [ "InteractionObject", "interfaceInteractionObject.html", "interfaceInteractionObject" ],
+    [ "InteractionObjectCreationNetData", "structInteractionObjectCreationNetData.html", null ],
     [ "intpair", "structintpair.html", null ],
     [ "InventoryItem", "interfaceInventoryItem.html", null ],
     [ "KelpPlant", "interfaceKelpPlant.html", "interfaceKelpPlant" ],
