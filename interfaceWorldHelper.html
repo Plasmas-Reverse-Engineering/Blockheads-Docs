@@ -106,6 +106,8 @@ $(function(){initNavTree('interfaceWorldHelper.html',''); initResizable(true); }
   <div class="headertitle"><div class="title">WorldHelper Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;WorldHelper.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for WorldHelper:</div>
 <div class="dyncontent">
@@ -115,30 +117,304 @@ Inheritance diagram for WorldHelper:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Class Methods</h2></td></tr>
-<tr class="memitem:a08c557bb1b0d05a74d80cb037b79954a" id="r_a08c557bb1b0d05a74d80cb037b79954a"><td class="memItemLeft" align="right" valign="top"><a id="a08c557bb1b0d05a74d80cb037b79954a" name="a08c557bb1b0d05a74d80cb037b79954a"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">+ <b>clientMacroTileRequestCanBeCancelledAtMacroPos:world:</b></td></tr>
-<tr class="separator:a08c557bb1b0d05a74d80cb037b79954a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad75c7dc39e5c0b5d5f54298b01122834" id="r_ad75c7dc39e5c0b5d5f54298b01122834"><td class="memItemLeft" align="right" valign="top"><a id="ad75c7dc39e5c0b5d5f54298b01122834" name="ad75c7dc39e5c0b5d5f54298b01122834"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">+ <b>checkIfMacroTileCanBeDecommissioned:world:minAge:blockToSavePhyscialBlock:</b></td></tr>
-<tr class="separator:ad75c7dc39e5c0b5d5f54298b01122834"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5621a2b2c6a1bd9c4f72e01b64c4f4f8" id="r_a5621a2b2c6a1bd9c4f72e01b64c4f4f8"><td class="memItemLeft" align="right" valign="top"><a id="a5621a2b2c6a1bd9c4f72e01b64c4f4f8" name="a5621a2b2c6a1bd9c4f72e01b64c4f4f8"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">+ <b>recalculateLightingForPhysicalBlockIfNeeded:world:clientLightBlockIndex:forBlockhead:</b></td></tr>
-<tr class="separator:a5621a2b2c6a1bd9c4f72e01b64c4f4f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a974048bb6f598def3fa4ff25373d6d8d" id="r_a974048bb6f598def3fa4ff25373d6d8d"><td class="memItemLeft" align="right" valign="top"><a id="a974048bb6f598def3fa4ff25373d6d8d" name="a974048bb6f598def3fa4ff25373d6d8d"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">+ <b>updateSunLightRemovedForTile:atPos:world:</b></td></tr>
-<tr class="separator:a974048bb6f598def3fa4ff25373d6d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40b7ed999b46c7c8a53e57e45caa6442" id="r_a40b7ed999b46c7c8a53e57e45caa6442"><td class="memItemLeft" align="right" valign="top"><a id="a40b7ed999b46c7c8a53e57e45caa6442" name="a40b7ed999b46c7c8a53e57e45caa6442"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">+ <b>recursivelyRemoveAllSunLightWithList:openIndices:lightWasRemovedList:removeIndices:world:minx:maxX:</b></td></tr>
-<tr class="separator:a40b7ed999b46c7c8a53e57e45caa6442"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c9fe582bacfe2fda3895f1bdc448c0e" id="r_a5c9fe582bacfe2fda3895f1bdc448c0e"><td class="memItemLeft" align="right" valign="top"><a id="a5c9fe582bacfe2fda3895f1bdc448c0e" name="a5c9fe582bacfe2fda3895f1bdc448c0e"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">+ <b>updateSunLightForTile:atPos:world:</b></td></tr>
-<tr class="separator:a5c9fe582bacfe2fda3895f1bdc448c0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eba116b65912838ae3419845dbae3d9" id="r_a0eba116b65912838ae3419845dbae3d9"><td class="memItemLeft" align="right" valign="top"><a id="a0eba116b65912838ae3419845dbae3d9" name="a0eba116b65912838ae3419845dbae3d9"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">+ <b>recursivelyUpdateSunLightWithList:openIndices:world:</b></td></tr>
-<tr class="separator:a0eba116b65912838ae3419845dbae3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0410cdcea1588bd7c5ce7d711c5240c2" id="r_a0410cdcea1588bd7c5ce7d711c5240c2"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="#a0410cdcea1588bd7c5ce7d711c5240c2">clientMacroTileRequestCanBeCancelledAtMacroPos:world:</a></td></tr>
+<tr class="separator:a0410cdcea1588bd7c5ce7d711c5240c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19bc52390f54dc414b11053afd956d85" id="r_a19bc52390f54dc414b11053afd956d85"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="#a19bc52390f54dc414b11053afd956d85">checkIfMacroTileCanBeDecommissioned:world:minAge:blockToSavePhyscialBlock:</a></td></tr>
+<tr class="separator:a19bc52390f54dc414b11053afd956d85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7822e0f30d7b2319218f49a3d49dae42" id="r_a7822e0f30d7b2319218f49a3d49dae42"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="#a7822e0f30d7b2319218f49a3d49dae42">recalculateLightingForPhysicalBlockIfNeeded:world:clientLightBlockIndex:forBlockhead:</a></td></tr>
+<tr class="separator:a7822e0f30d7b2319218f49a3d49dae42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61b51e0cb2563f83c73bfd5900f4e846" id="r_a61b51e0cb2563f83c73bfd5900f4e846"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="#a61b51e0cb2563f83c73bfd5900f4e846">updateSunLightRemovedForTile:atPos:world:</a></td></tr>
+<tr class="separator:a61b51e0cb2563f83c73bfd5900f4e846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec16cf21b336eafde5aec0ebd9c39e95" id="r_aec16cf21b336eafde5aec0ebd9c39e95"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="#aec16cf21b336eafde5aec0ebd9c39e95">recursivelyRemoveAllSunLightWithList:openIndices:lightWasRemovedList:removeIndices:world:minx:maxX:</a></td></tr>
+<tr class="separator:aec16cf21b336eafde5aec0ebd9c39e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4250bbed8c447928592fe1661ce05e0f" id="r_a4250bbed8c447928592fe1661ce05e0f"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="#a4250bbed8c447928592fe1661ce05e0f">updateSunLightForTile:atPos:world:</a></td></tr>
+<tr class="separator:a4250bbed8c447928592fe1661ce05e0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f88d3dd81850b1337c30bc8c5f8121" id="r_aa0f88d3dd81850b1337c30bc8c5f8121"><td class="memItemLeft" align="right" valign="top">(void)&#160;</td><td class="memItemRight" valign="bottom">+ <a class="el" href="#aa0f88d3dd81850b1337c30bc8c5f8121">recursivelyUpdateSunLightWithList:openIndices:world:</a></td></tr>
+<tr class="separator:aa0f88d3dd81850b1337c30bc8c5f8121"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>@breif Helps with general world related things </p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a id="a19bc52390f54dc414b11053afd956d85" name="a19bc52390f54dc414b11053afd956d85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19bc52390f54dc414b11053afd956d85">&#9670;&#160;</a></span>checkIfMacroTileCanBeDecommissioned:world:minAge:blockToSavePhyscialBlock:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (BOOL) checkIfMacroTileCanBeDecommissioned: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="structMacroTile.html">MacroTile</a> *)</td>          <td class="paramname"><span class="paramname"><em>macroTile</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">world:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceWorld.html">World</a> *)</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">minAge:</td>
+          <td></td>
+          <td class="paramtype">(NSTimeInterval)</td>          <td class="paramname"><span class="paramname"><em>minAge</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">blockToSavePhyscialBlock:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)</td>          <td class="paramname"><span class="paramname"><em>blockToSavePhysicalBlock</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000064">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">macroTile</td><td></td></tr>
+    <tr><td class="paramname">world</td><td></td></tr>
+    <tr><td class="paramname">minAge</td><td></td></tr>
+    <tr><td class="paramname">blockToSavePhysicalBlock</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a0410cdcea1588bd7c5ce7d711c5240c2" name="a0410cdcea1588bd7c5ce7d711c5240c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0410cdcea1588bd7c5ce7d711c5240c2">&#9670;&#160;</a></span>clientMacroTileRequestCanBeCancelledAtMacroPos:world:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (BOOL) clientMacroTileRequestCanBeCancelledAtMacroPos: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="structintpair.html">intpair</a>)</td>          <td class="paramname"><span class="paramname"><em>macroPos</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">world:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceWorld.html">World</a> *)</td>          <td class="paramname"><span class="paramname"><em>world</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000063">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">macroPos</td><td></td></tr>
+    <tr><td class="paramname">world</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+</div>
+</div>
+<a id="a7822e0f30d7b2319218f49a3d49dae42" name="a7822e0f30d7b2319218f49a3d49dae42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7822e0f30d7b2319218f49a3d49dae42">&#9670;&#160;</a></span>recalculateLightingForPhysicalBlockIfNeeded:world:clientLightBlockIndex:forBlockhead:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) recalculateLightingForPhysicalBlockIfNeeded: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="structPhysicalBlock.html">PhysicalBlock</a> *)</td>          <td class="paramname"><span class="paramname"><em>physicalBlock</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">world:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceWorld.html">World</a> *)</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">clientLightBlockIndex:</td>
+          <td></td>
+          <td class="paramtype">(int)</td>          <td class="paramname"><span class="paramname"><em>clientLightBlockIndex</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">forBlockhead:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceBlockhead.html">Blockhead</a> *)</td>          <td class="paramname"><span class="paramname"><em>blockhead</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000065">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">physicalBlock</td><td></td></tr>
+    <tr><td class="paramname">world</td><td></td></tr>
+    <tr><td class="paramname">clientLightBlockIndex</td><td></td></tr>
+    <tr><td class="paramname">blockhead</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aec16cf21b336eafde5aec0ebd9c39e95" name="aec16cf21b336eafde5aec0ebd9c39e95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec16cf21b336eafde5aec0ebd9c39e95">&#9670;&#160;</a></span>recursivelyRemoveAllSunLightWithList:openIndices:lightWasRemovedList:removeIndices:world:minx:maxX:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) recursivelyRemoveAllSunLightWithList: </td>
+          <td></td>
+          <td class="paramtype">(NSMutableArray *)</td>          <td class="paramname"><span class="paramname"><em>openList</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">openIndices:</td>
+          <td></td>
+          <td class="paramtype">(NSMutableIndexSet *)</td>          <td class="paramname"><span class="paramname"><em>openIndices</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">lightWasRemovedList:</td>
+          <td></td>
+          <td class="paramtype">(NSMutableArray *)</td>          <td class="paramname"><span class="paramname"><em>lightWasRemovedList</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">removeIndices:</td>
+          <td></td>
+          <td class="paramtype">(NSMutableIndexSet *)</td>          <td class="paramname"><span class="paramname"><em>removeIndices</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">world:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceWorld.html">World</a> *)</td>          <td class="paramname"><span class="paramname"><em>world</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">minx:</td>
+          <td></td>
+          <td class="paramtype">(int)</td>          <td class="paramname"><span class="paramname"><em>minX</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">maxX:</td>
+          <td></td>
+          <td class="paramtype">(int)</td>          <td class="paramname"><span class="paramname"><em>maxX</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000067">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">openList</td><td></td></tr>
+    <tr><td class="paramname">openIndices</td><td></td></tr>
+    <tr><td class="paramname">lightWasRemovedList</td><td></td></tr>
+    <tr><td class="paramname">removeIndices</td><td></td></tr>
+    <tr><td class="paramname">world</td><td></td></tr>
+    <tr><td class="paramname">minX</td><td></td></tr>
+    <tr><td class="paramname">maxX</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="aa0f88d3dd81850b1337c30bc8c5f8121" name="aa0f88d3dd81850b1337c30bc8c5f8121"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0f88d3dd81850b1337c30bc8c5f8121">&#9670;&#160;</a></span>recursivelyUpdateSunLightWithList:openIndices:world:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) recursivelyUpdateSunLightWithList: </td>
+          <td></td>
+          <td class="paramtype">(NSMutableArray *)</td>          <td class="paramname"><span class="paramname"><em>openList</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">openIndices:</td>
+          <td></td>
+          <td class="paramtype">(NSMutableIndexSet *)</td>          <td class="paramname"><span class="paramname"><em>openIndices</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">world:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceWorld.html">World</a> *)</td>          <td class="paramname"><span class="paramname"><em>world</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000069">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">openList</td><td></td></tr>
+    <tr><td class="paramname">openIndices</td><td></td></tr>
+    <tr><td class="paramname">world</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a4250bbed8c447928592fe1661ce05e0f" name="a4250bbed8c447928592fe1661ce05e0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4250bbed8c447928592fe1661ce05e0f">&#9670;&#160;</a></span>updateSunLightForTile:atPos:world:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) updateSunLightForTile: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="structTile.html">Tile</a> *)</td>          <td class="paramname"><span class="paramname"><em>tile</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">atPos:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="structintpair.html">intpair</a>)</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">world:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceWorld.html">World</a> *)</td>          <td class="paramname"><span class="paramname"><em>world</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000068">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tile</td><td></td></tr>
+    <tr><td class="paramname">pos</td><td></td></tr>
+    <tr><td class="paramname">world</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a61b51e0cb2563f83c73bfd5900f4e846" name="a61b51e0cb2563f83c73bfd5900f4e846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61b51e0cb2563f83c73bfd5900f4e846">&#9670;&#160;</a></span>updateSunLightRemovedForTile:atPos:world:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">+ (void) updateSunLightRemovedForTile: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="structTile.html">Tile</a> *)</td>          <td class="paramname"><span class="paramname"><em>tile</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">atPos:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="structintpair.html">intpair</a>)</td>          <td class="paramname"><span class="paramname"><em>pos</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">world:</td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceWorld.html">World</a> *)</td>          <td class="paramname"><span class="paramname"><em>world</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000066">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tile</td><td></td></tr>
+    <tr><td class="paramname">pos</td><td></td></tr>
+    <tr><td class="paramname">world</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>SharedSource/<b>WorldHelper.h</b></li>
+<li>SharedSource/<b>WorldHelper.mm</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
