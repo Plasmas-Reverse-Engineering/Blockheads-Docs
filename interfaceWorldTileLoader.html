@@ -116,39 +116,72 @@ Inheritance diagram for WorldTileLoader:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
-<tr class="memitem:a8e470be29b448411f7e0740e3ab26cec" id="r_a8e470be29b448411f7e0740e3ab26cec"><td class="memItemLeft" align="right" valign="top"><a id="a8e470be29b448411f7e0740e3ab26cec" name="a8e470be29b448411f7e0740e3ab26cec"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>finishBulkLightBlockTransaction</b></td></tr>
-<tr class="separator:a8e470be29b448411f7e0740e3ab26cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e982ce8f9ad604518fa3d64bd712766" id="r_a0e982ce8f9ad604518fa3d64bd712766"><td class="memItemLeft" align="right" valign="top"><a id="a0e982ce8f9ad604518fa3d64bd712766" name="a0e982ce8f9ad604518fa3d64bd712766"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>startBulkLightBlockTransaction</b></td></tr>
-<tr class="separator:a0e982ce8f9ad604518fa3d64bd712766"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad564448375c29a0f3ace593010764044" id="r_ad564448375c29a0f3ace593010764044"><td class="memItemLeft" align="right" valign="top"><a id="ad564448375c29a0f3ace593010764044" name="ad564448375c29a0f3ace593010764044"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>saveLightBlockForClientLightBlockIndex:clientID:physicalBlock:sendNow:</b></td></tr>
-<tr class="separator:ad564448375c29a0f3ace593010764044"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39d9e85e1c3507da5f8b6c48b664aa14" id="r_a39d9e85e1c3507da5f8b6c48b664aa14"><td class="memItemLeft" align="right" valign="top"><a id="a39d9e85e1c3507da5f8b6c48b664aa14" name="a39d9e85e1c3507da5f8b6c48b664aa14"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>sendLightBlockToClientWithoutSavingForBlock:pos:sendToClient:server:</b></td></tr>
-<tr class="separator:a39d9e85e1c3507da5f8b6c48b664aa14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9494cd11987488386df73c110959ff14" id="r_a9494cd11987488386df73c110959ff14"><td class="memItemLeft" align="right" valign="top"><a id="a9494cd11987488386df73c110959ff14" name="a9494cd11987488386df73c110959ff14"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>loadLightBlockForClientLightBlockIndex:clientID:intoPhysicalBlock:</b></td></tr>
-<tr class="separator:a9494cd11987488386df73c110959ff14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a165bf193b73c7a48dd40ff89da1d7f87" id="r_a165bf193b73c7a48dd40ff89da1d7f87"><td class="memItemLeft" align="right" valign="top"><a id="a165bf193b73c7a48dd40ff89da1d7f87" name="a165bf193b73c7a48dd40ff89da1d7f87"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <b>archiveLightBlocksForClient:</b></td></tr>
 <tr class="separator:a165bf193b73c7a48dd40ff89da1d7f87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad287b98c4e8717e18c9c24ab873ee41b" id="r_ad287b98c4e8717e18c9c24ab873ee41b"><td class="memItemLeft" align="right" valign="top"><a id="ad287b98c4e8717e18c9c24ab873ee41b" name="ad287b98c4e8717e18c9c24ab873ee41b"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>unarchiveLightBlocksForClient:</b></td></tr>
-<tr class="separator:ad287b98c4e8717e18c9c24ab873ee41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6763b80fcc63b67c5ece6efe8e066029" id="r_a6763b80fcc63b67c5ece6efe8e066029"><td class="memItemLeft" align="right" valign="top"><a id="a6763b80fcc63b67c5ece6efe8e066029" name="a6763b80fcc63b67c5ece6efe8e066029"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>updatePhysicalBlockToLatestVersion:</b></td></tr>
-<tr class="separator:a6763b80fcc63b67c5ece6efe8e066029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b0f687baeb9e7774ebf3f0fed640a73" id="r_a3b0f687baeb9e7774ebf3f0fed640a73"><td class="memItemLeft" align="right" valign="top"><a id="a3b0f687baeb9e7774ebf3f0fed640a73" name="a3b0f687baeb9e7774ebf3f0fed640a73"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>compressBlocks</b></td></tr>
+<tr class="separator:a3b0f687baeb9e7774ebf3f0fed640a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ae4cedd71964b8ba0a5306de19a9c52" id="r_a1ae4cedd71964b8ba0a5306de19a9c52"><td class="memItemLeft" align="right" valign="top"><a id="a1ae4cedd71964b8ba0a5306de19a9c52" name="a1ae4cedd71964b8ba0a5306de19a9c52"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>dealloc</b></td></tr>
+<tr class="separator:a1ae4cedd71964b8ba0a5306de19a9c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22a9ca935ff6047d43487568aad81c4e" id="r_a22a9ca935ff6047d43487568aad81c4e"><td class="memItemLeft" align="right" valign="top"><a id="a22a9ca935ff6047d43487568aad81c4e" name="a22a9ca935ff6047d43487568aad81c4e"></a>
 (int *)&#160;</td><td class="memItemRight" valign="bottom">- <b>distanceOrderedFoodTypes</b></td></tr>
 <tr class="separator:a22a9ca935ff6047d43487568aad81c4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae98d0deb8810c9304453b9ce8d0eb612" id="r_ae98d0deb8810c9304453b9ce8d0eb612"><td class="memItemLeft" align="right" valign="top"><a id="ae98d0deb8810c9304453b9ce8d0eb612" name="ae98d0deb8810c9304453b9ce8d0eb612"></a>
+(int)&#160;</td><td class="memItemRight" valign="bottom">- <b>faultOffsetForX:y:</b></td></tr>
+<tr class="separator:ae98d0deb8810c9304453b9ce8d0eb612"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c6d0adbda34ce0c838a111c5a6dd696" id="r_a4c6d0adbda34ce0c838a111c5a6dd696"><td class="memItemLeft" align="right" valign="top"><a id="a4c6d0adbda34ce0c838a111c5a6dd696" name="a4c6d0adbda34ce0c838a111c5a6dd696"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>fillDirtTile:worldPos:worldDirtHeight:parentType:</b></td></tr>
+<tr class="separator:a4c6d0adbda34ce0c838a111c5a6dd696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0752203f9af60d8840a8d3fe49bfd72" id="r_ab0752203f9af60d8840a8d3fe49bfd72"><td class="memItemLeft" align="right" valign="top"><a id="ab0752203f9af60d8840a8d3fe49bfd72" name="ab0752203f9af60d8840a8d3fe49bfd72"></a>
 (<a class="el" href="structintpair.html">intpair</a>)&#160;</td><td class="memItemRight" valign="bottom">- <b>findBestStartPosition</b></td></tr>
 <tr class="separator:ab0752203f9af60d8840a8d3fe49bfd72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e470be29b448411f7e0740e3ab26cec" id="r_a8e470be29b448411f7e0740e3ab26cec"><td class="memItemLeft" align="right" valign="top"><a id="a8e470be29b448411f7e0740e3ab26cec" name="a8e470be29b448411f7e0740e3ab26cec"></a>
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>finishBulkLightBlockTransaction</b></td></tr>
+<tr class="separator:a8e470be29b448411f7e0740e3ab26cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c891e91d0f6ebd7819276018aca8be5" id="r_a6c891e91d0f6ebd7819276018aca8be5"><td class="memItemLeft" align="right" valign="top"><a id="a6c891e91d0f6ebd7819276018aca8be5" name="a6c891e91d0f6ebd7819276018aca8be5"></a>
+(int)&#160;</td><td class="memItemRight" valign="bottom">- <b>getCloudHeightForX:</b></td></tr>
+<tr class="separator:a6c891e91d0f6ebd7819276018aca8be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a952c7d9fbf3954357b865892d65095e1" id="r_a952c7d9fbf3954357b865892d65095e1"><td class="memItemLeft" align="right" valign="top"><a id="a952c7d9fbf3954357b865892d65095e1" name="a952c7d9fbf3954357b865892d65095e1"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>getInitialRockAndDirtHeightforX:rockHeight:dirtHeight:</b></td></tr>
+<tr class="separator:a952c7d9fbf3954357b865892d65095e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b102c529dc82c15eff21d7b8d5b21b4" id="r_a3b102c529dc82c15eff21d7b8d5b21b4"><td class="memItemLeft" align="right" valign="top"><a id="a3b102c529dc82c15eff21d7b8d5b21b4" name="a3b102c529dc82c15eff21d7b8d5b21b4"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>getRockAndDirtHeightforX:rockHeight:dirtHeight:</b></td></tr>
+<tr class="separator:a3b102c529dc82c15eff21d7b8d5b21b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab845dd49528364e37347556cc6aba5e9" id="r_ab845dd49528364e37347556cc6aba5e9"><td class="memItemLeft" align="right" valign="top"><a id="ab845dd49528364e37347556cc6aba5e9" name="ab845dd49528364e37347556cc6aba5e9"></a>
+(id)&#160;</td><td class="memItemRight" valign="bottom">- <b>initWithWorld:randomSeed:isNewWorld:saveID:loadedVersion:blockDatabase:</b></td></tr>
+<tr class="separator:ab845dd49528364e37347556cc6aba5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46497c9eff0ae20aed541b15b6cdcc1a" id="r_a46497c9eff0ae20aed541b15b6cdcc1a"><td class="memItemLeft" align="right" valign="top"><a id="a46497c9eff0ae20aed541b15b6cdcc1a" name="a46497c9eff0ae20aed541b15b6cdcc1a"></a>
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isBeachForPos:height:</b></td></tr>
+<tr class="separator:a46497c9eff0ae20aed541b15b6cdcc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ac88907ea0a643bf522c090cce66753" id="r_a5ac88907ea0a643bf522c090cce66753"><td class="memItemLeft" align="right" valign="top"><a id="a5ac88907ea0a643bf522c090cce66753" name="a5ac88907ea0a643bf522c090cce66753"></a>
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isCaveForX:y:faultOffset:</b></td></tr>
+<tr class="separator:a5ac88907ea0a643bf522c090cce66753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21706bf45f3f01d301c26f8476607d82" id="r_a21706bf45f3f01d301c26f8476607d82"><td class="memItemLeft" align="right" valign="top"><a id="a21706bf45f3f01d301c26f8476607d82" name="a21706bf45f3f01d301c26f8476607d82"></a>
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isDesertForPos:height:</b></td></tr>
+<tr class="separator:a21706bf45f3f01d301c26f8476607d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b4a08330a16ded835d52ba1d244b769" id="r_a6b4a08330a16ded835d52ba1d244b769"><td class="memItemLeft" align="right" valign="top"><a id="a6b4a08330a16ded835d52ba1d244b769" name="a6b4a08330a16ded835d52ba1d244b769"></a>
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isDesertOrBeachForPos:height:</b></td></tr>
+<tr class="separator:a6b4a08330a16ded835d52ba1d244b769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0a2d04b399c38aa25f1a31652e58ad5" id="r_aa0a2d04b399c38aa25f1a31652e58ad5"><td class="memItemLeft" align="right" valign="top"><a id="aa0a2d04b399c38aa25f1a31652e58ad5" name="aa0a2d04b399c38aa25f1a31652e58ad5"></a>
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isFloatingIslandCaveForX:y:</b></td></tr>
+<tr class="separator:aa0a2d04b399c38aa25f1a31652e58ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17128b2d6d2017cd6966e58e1bc46e8c" id="r_a17128b2d6d2017cd6966e58e1bc46e8c"><td class="memItemLeft" align="right" valign="top"><a id="a17128b2d6d2017cd6966e58e1bc46e8c" name="a17128b2d6d2017cd6966e58e1bc46e8c"></a>
+(int)&#160;</td><td class="memItemRight" valign="bottom">- <b>lakeHeightForX:</b></td></tr>
+<tr class="separator:a17128b2d6d2017cd6966e58e1bc46e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9c433f139ab7d5a5ec7f0a9a3013bb" id="r_aec9c433f139ab7d5a5ec7f0a9a3013bb"><td class="memItemLeft" align="right" valign="top"><a id="aec9c433f139ab7d5a5ec7f0a9a3013bb" name="aec9c433f139ab7d5a5ec7f0a9a3013bb"></a>
+(float)&#160;</td><td class="memItemRight" valign="bottom">- <b>limestoneFractionForX:y:faultOffset:</b></td></tr>
+<tr class="separator:aec9c433f139ab7d5a5ec7f0a9a3013bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9494cd11987488386df73c110959ff14" id="r_a9494cd11987488386df73c110959ff14"><td class="memItemLeft" align="right" valign="top"><a id="a9494cd11987488386df73c110959ff14" name="a9494cd11987488386df73c110959ff14"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>loadLightBlockForClientLightBlockIndex:clientID:intoPhysicalBlock:</b></td></tr>
+<tr class="separator:a9494cd11987488386df73c110959ff14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad525ed47d3cc3bf8717599e2c9eb964c" id="r_ad525ed47d3cc3bf8717599e2c9eb964c"><td class="memItemLeft" align="right" valign="top"><a id="ad525ed47d3cc3bf8717599e2c9eb964c" name="ad525ed47d3cc3bf8717599e2c9eb964c"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <b>loadPhysicalBlock:atXPos:yPos:createIfNotCreated:</b></td></tr>
 <tr class="separator:ad525ed47d3cc3bf8717599e2c9eb964c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0785f2f77547097d99dc74995aca2a4" id="r_ae0785f2f77547097d99dc74995aca2a4"><td class="memItemLeft" align="right" valign="top"><a id="ae0785f2f77547097d99dc74995aca2a4" name="ae0785f2f77547097d99dc74995aca2a4"></a>
+(int)&#160;</td><td class="memItemRight" valign="bottom">- <b>maxOfRockAndDirtHeightForX:</b></td></tr>
+<tr class="separator:ae0785f2f77547097d99dc74995aca2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a126ac0bb0d15c7964a40b11daf945fc9" id="r_a126ac0bb0d15c7964a40b11daf945fc9"><td class="memItemLeft" align="right" valign="top"><a id="a126ac0bb0d15c7964a40b11daf945fc9" name="a126ac0bb0d15c7964a40b11daf945fc9"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <b>placeGemsInCaveForPhysicalBlock:tileIndex:worldX:worldY:floatingIslandType:</b></td></tr>
 <tr class="separator:a126ac0bb0d15c7964a40b11daf945fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,174 +191,141 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:ad187b96bf79b09585cdb7d21460a734e" id="r_ad187b96bf79b09585cdb7d21460a734e"><td class="memItemLeft" align="right" valign="top"><a id="ad187b96bf79b09585cdb7d21460a734e" name="ad187b96bf79b09585cdb7d21460a734e"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <b>recursivelyFlowOutWaterFromTile:atPos:</b></td></tr>
 <tr class="separator:ad187b96bf79b09585cdb7d21460a734e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c6d0adbda34ce0c838a111c5a6dd696" id="r_a4c6d0adbda34ce0c838a111c5a6dd696"><td class="memItemLeft" align="right" valign="top"><a id="a4c6d0adbda34ce0c838a111c5a6dd696" name="a4c6d0adbda34ce0c838a111c5a6dd696"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>fillDirtTile:worldPos:worldDirtHeight:parentType:</b></td></tr>
-<tr class="separator:a4c6d0adbda34ce0c838a111c5a6dd696"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b4a08330a16ded835d52ba1d244b769" id="r_a6b4a08330a16ded835d52ba1d244b769"><td class="memItemLeft" align="right" valign="top"><a id="a6b4a08330a16ded835d52ba1d244b769" name="a6b4a08330a16ded835d52ba1d244b769"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isDesertOrBeachForPos:height:</b></td></tr>
-<tr class="separator:a6b4a08330a16ded835d52ba1d244b769"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46497c9eff0ae20aed541b15b6cdcc1a" id="r_a46497c9eff0ae20aed541b15b6cdcc1a"><td class="memItemLeft" align="right" valign="top"><a id="a46497c9eff0ae20aed541b15b6cdcc1a" name="a46497c9eff0ae20aed541b15b6cdcc1a"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isBeachForPos:height:</b></td></tr>
-<tr class="separator:a46497c9eff0ae20aed541b15b6cdcc1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21706bf45f3f01d301c26f8476607d82" id="r_a21706bf45f3f01d301c26f8476607d82"><td class="memItemLeft" align="right" valign="top"><a id="a21706bf45f3f01d301c26f8476607d82" name="a21706bf45f3f01d301c26f8476607d82"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isDesertForPos:height:</b></td></tr>
-<tr class="separator:a21706bf45f3f01d301c26f8476607d82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d66b436f8154d06bfad5a6ae0716aa1" id="r_a5d66b436f8154d06bfad5a6ae0716aa1"><td class="memItemLeft" align="right" valign="top"><a id="a5d66b436f8154d06bfad5a6ae0716aa1" name="a5d66b436f8154d06bfad5a6ae0716aa1"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>refineTerrain</b></td></tr>
+<tr class="separator:a5d66b436f8154d06bfad5a6ae0716aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a045653af5626ea16e6ba26770bbfb7cb" id="r_a045653af5626ea16e6ba26770bbfb7cb"><td class="memItemLeft" align="right" valign="top"><a id="a045653af5626ea16e6ba26770bbfb7cb" name="a045653af5626ea16e6ba26770bbfb7cb"></a>
 (float)&#160;</td><td class="memItemRight" valign="bottom">- <b>sandFractionForPos:height:highRes:</b></td></tr>
 <tr class="separator:a045653af5626ea16e6ba26770bbfb7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf5f7a2a15f3bc319ef26b8b2041f65d" id="r_acf5f7a2a15f3bc319ef26b8b2041f65d"><td class="memItemLeft" align="right" valign="top"><a id="acf5f7a2a15f3bc319ef26b8b2041f65d" name="acf5f7a2a15f3bc319ef26b8b2041f65d"></a>
 (float)&#160;</td><td class="memItemRight" valign="bottom">- <b>sandFractionForPos:highRes:</b></td></tr>
 <tr class="separator:acf5f7a2a15f3bc319ef26b8b2041f65d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aeaca06c5aef68dd3449bcc7d951b5b" id="r_a1aeaca06c5aef68dd3449bcc7d951b5b"><td class="memItemLeft" align="right" valign="top"><a id="a1aeaca06c5aef68dd3449bcc7d951b5b" name="a1aeaca06c5aef68dd3449bcc7d951b5b"></a>
+(float)&#160;</td><td class="memItemRight" valign="bottom">- <b>sandstoneFractionForX:y:faultOffset:limestoneFraction:</b></td></tr>
+<tr class="separator:a1aeaca06c5aef68dd3449bcc7d951b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad564448375c29a0f3ace593010764044" id="r_ad564448375c29a0f3ace593010764044"><td class="memItemLeft" align="right" valign="top"><a id="ad564448375c29a0f3ace593010764044" name="ad564448375c29a0f3ace593010764044"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>saveLightBlockForClientLightBlockIndex:clientID:physicalBlock:sendNow:</b></td></tr>
+<tr class="separator:ad564448375c29a0f3ace593010764044"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24cab11e66e4c4b8e48c9c7f6244471b" id="r_a24cab11e66e4c4b8e48c9c7f6244471b"><td class="memItemLeft" align="right" valign="top"><a id="a24cab11e66e4c4b8e48c9c7f6244471b" name="a24cab11e66e4c4b8e48c9c7f6244471b"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <b>savePhysicalBlock:macroTile:sendToClients:server:sendReliably:</b></td></tr>
 <tr class="separator:a24cab11e66e4c4b8e48c9c7f6244471b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad618f5f17db896fcff3c411c064f4f5f" id="r_ad618f5f17db896fcff3c411c064f4f5f"><td class="memItemLeft" align="right" valign="top"><a id="ad618f5f17db896fcff3c411c064f4f5f" name="ad618f5f17db896fcff3c411c064f4f5f"></a>
 (BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>sendBlockToClientWithoutSavingForBlock:pos:sendToClient:server:sendDynamicObjects:reliable:</b></td></tr>
 <tr class="separator:ad618f5f17db896fcff3c411c064f4f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0a2d04b399c38aa25f1a31652e58ad5" id="r_aa0a2d04b399c38aa25f1a31652e58ad5"><td class="memItemLeft" align="right" valign="top"><a id="aa0a2d04b399c38aa25f1a31652e58ad5" name="aa0a2d04b399c38aa25f1a31652e58ad5"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isFloatingIslandCaveForX:y:</b></td></tr>
-<tr class="separator:aa0a2d04b399c38aa25f1a31652e58ad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ac88907ea0a643bf522c090cce66753" id="r_a5ac88907ea0a643bf522c090cce66753"><td class="memItemLeft" align="right" valign="top"><a id="a5ac88907ea0a643bf522c090cce66753" name="a5ac88907ea0a643bf522c090cce66753"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>isCaveForX:y:faultOffset:</b></td></tr>
-<tr class="separator:a5ac88907ea0a643bf522c090cce66753"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17128b2d6d2017cd6966e58e1bc46e8c" id="r_a17128b2d6d2017cd6966e58e1bc46e8c"><td class="memItemLeft" align="right" valign="top"><a id="a17128b2d6d2017cd6966e58e1bc46e8c" name="a17128b2d6d2017cd6966e58e1bc46e8c"></a>
-(int)&#160;</td><td class="memItemRight" valign="bottom">- <b>lakeHeightForX:</b></td></tr>
-<tr class="separator:a17128b2d6d2017cd6966e58e1bc46e8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0785f2f77547097d99dc74995aca2a4" id="r_ae0785f2f77547097d99dc74995aca2a4"><td class="memItemLeft" align="right" valign="top"><a id="ae0785f2f77547097d99dc74995aca2a4" name="ae0785f2f77547097d99dc74995aca2a4"></a>
-(int)&#160;</td><td class="memItemRight" valign="bottom">- <b>maxOfRockAndDirtHeightForX:</b></td></tr>
-<tr class="separator:ae0785f2f77547097d99dc74995aca2a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d9e85e1c3507da5f8b6c48b664aa14" id="r_a39d9e85e1c3507da5f8b6c48b664aa14"><td class="memItemLeft" align="right" valign="top"><a id="a39d9e85e1c3507da5f8b6c48b664aa14" name="a39d9e85e1c3507da5f8b6c48b664aa14"></a>
+(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>sendLightBlockToClientWithoutSavingForBlock:pos:sendToClient:server:</b></td></tr>
+<tr class="separator:a39d9e85e1c3507da5f8b6c48b664aa14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e982ce8f9ad604518fa3d64bd712766" id="r_a0e982ce8f9ad604518fa3d64bd712766"><td class="memItemLeft" align="right" valign="top"><a id="a0e982ce8f9ad604518fa3d64bd712766" name="a0e982ce8f9ad604518fa3d64bd712766"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>startBulkLightBlockTransaction</b></td></tr>
+<tr class="separator:a0e982ce8f9ad604518fa3d64bd712766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad287b98c4e8717e18c9c24ab873ee41b" id="r_ad287b98c4e8717e18c9c24ab873ee41b"><td class="memItemLeft" align="right" valign="top"><a id="ad287b98c4e8717e18c9c24ab873ee41b" name="ad287b98c4e8717e18c9c24ab873ee41b"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>unarchiveLightBlocksForClient:</b></td></tr>
+<tr class="separator:ad287b98c4e8717e18c9c24ab873ee41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b27f40c14901fefeca9dc489d84ab3f" id="r_a2b27f40c14901fefeca9dc489d84ab3f"><td class="memItemLeft" align="right" valign="top"><a id="a2b27f40c14901fefeca9dc489d84ab3f" name="a2b27f40c14901fefeca9dc489d84ab3f"></a>
 (int)&#160;</td><td class="memItemRight" valign="bottom">- <b>unmodifiedGroundLevelForX:</b></td></tr>
 <tr class="separator:a2b27f40c14901fefeca9dc489d84ab3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1aeaca06c5aef68dd3449bcc7d951b5b" id="r_a1aeaca06c5aef68dd3449bcc7d951b5b"><td class="memItemLeft" align="right" valign="top"><a id="a1aeaca06c5aef68dd3449bcc7d951b5b" name="a1aeaca06c5aef68dd3449bcc7d951b5b"></a>
-(float)&#160;</td><td class="memItemRight" valign="bottom">- <b>sandstoneFractionForX:y:faultOffset:limestoneFraction:</b></td></tr>
-<tr class="separator:a1aeaca06c5aef68dd3449bcc7d951b5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec9c433f139ab7d5a5ec7f0a9a3013bb" id="r_aec9c433f139ab7d5a5ec7f0a9a3013bb"><td class="memItemLeft" align="right" valign="top"><a id="aec9c433f139ab7d5a5ec7f0a9a3013bb" name="aec9c433f139ab7d5a5ec7f0a9a3013bb"></a>
-(float)&#160;</td><td class="memItemRight" valign="bottom">- <b>limestoneFractionForX:y:faultOffset:</b></td></tr>
-<tr class="separator:aec9c433f139ab7d5a5ec7f0a9a3013bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c891e91d0f6ebd7819276018aca8be5" id="r_a6c891e91d0f6ebd7819276018aca8be5"><td class="memItemLeft" align="right" valign="top"><a id="a6c891e91d0f6ebd7819276018aca8be5" name="a6c891e91d0f6ebd7819276018aca8be5"></a>
-(int)&#160;</td><td class="memItemRight" valign="bottom">- <b>getCloudHeightForX:</b></td></tr>
-<tr class="separator:a6c891e91d0f6ebd7819276018aca8be5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b102c529dc82c15eff21d7b8d5b21b4" id="r_a3b102c529dc82c15eff21d7b8d5b21b4"><td class="memItemLeft" align="right" valign="top"><a id="a3b102c529dc82c15eff21d7b8d5b21b4" name="a3b102c529dc82c15eff21d7b8d5b21b4"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>getRockAndDirtHeightforX:rockHeight:dirtHeight:</b></td></tr>
-<tr class="separator:a3b102c529dc82c15eff21d7b8d5b21b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae98d0deb8810c9304453b9ce8d0eb612" id="r_ae98d0deb8810c9304453b9ce8d0eb612"><td class="memItemLeft" align="right" valign="top"><a id="ae98d0deb8810c9304453b9ce8d0eb612" name="ae98d0deb8810c9304453b9ce8d0eb612"></a>
-(int)&#160;</td><td class="memItemRight" valign="bottom">- <b>faultOffsetForX:y:</b></td></tr>
-<tr class="separator:ae98d0deb8810c9304453b9ce8d0eb612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a952c7d9fbf3954357b865892d65095e1" id="r_a952c7d9fbf3954357b865892d65095e1"><td class="memItemLeft" align="right" valign="top"><a id="a952c7d9fbf3954357b865892d65095e1" name="a952c7d9fbf3954357b865892d65095e1"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>getInitialRockAndDirtHeightforX:rockHeight:dirtHeight:</b></td></tr>
-<tr class="separator:a952c7d9fbf3954357b865892d65095e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5d66b436f8154d06bfad5a6ae0716aa1" id="r_a5d66b436f8154d06bfad5a6ae0716aa1"><td class="memItemLeft" align="right" valign="top"><a id="a5d66b436f8154d06bfad5a6ae0716aa1" name="a5d66b436f8154d06bfad5a6ae0716aa1"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>refineTerrain</b></td></tr>
-<tr class="separator:a5d66b436f8154d06bfad5a6ae0716aa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ae4cedd71964b8ba0a5306de19a9c52" id="r_a1ae4cedd71964b8ba0a5306de19a9c52"><td class="memItemLeft" align="right" valign="top"><a id="a1ae4cedd71964b8ba0a5306de19a9c52" name="a1ae4cedd71964b8ba0a5306de19a9c52"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>dealloc</b></td></tr>
-<tr class="separator:a1ae4cedd71964b8ba0a5306de19a9c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b0f687baeb9e7774ebf3f0fed640a73" id="r_a3b0f687baeb9e7774ebf3f0fed640a73"><td class="memItemLeft" align="right" valign="top"><a id="a3b0f687baeb9e7774ebf3f0fed640a73" name="a3b0f687baeb9e7774ebf3f0fed640a73"></a>
-(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>compressBlocks</b></td></tr>
-<tr class="separator:a3b0f687baeb9e7774ebf3f0fed640a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab845dd49528364e37347556cc6aba5e9" id="r_ab845dd49528364e37347556cc6aba5e9"><td class="memItemLeft" align="right" valign="top"><a id="ab845dd49528364e37347556cc6aba5e9" name="ab845dd49528364e37347556cc6aba5e9"></a>
-(id)&#160;</td><td class="memItemRight" valign="bottom">- <b>initWithWorld:randomSeed:isNewWorld:saveID:loadedVersion:blockDatabase:</b></td></tr>
-<tr class="separator:ab845dd49528364e37347556cc6aba5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6763b80fcc63b67c5ece6efe8e066029" id="r_a6763b80fcc63b67c5ece6efe8e066029"><td class="memItemLeft" align="right" valign="top"><a id="a6763b80fcc63b67c5ece6efe8e066029" name="a6763b80fcc63b67c5ece6efe8e066029"></a>
+(void)&#160;</td><td class="memItemRight" valign="bottom">- <b>updatePhysicalBlockToLatestVersion:</b></td></tr>
+<tr class="separator:a6763b80fcc63b67c5ece6efe8e066029"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a4957142dfe9685ae59bfe469afbc709d" id="r_a4957142dfe9685ae59bfe469afbc709d"><td class="memItemLeft" align="right" valign="top"><a id="a4957142dfe9685ae59bfe469afbc709d" name="a4957142dfe9685ae59bfe469afbc709d"></a>
-<a class="el" href="interfaceWorld.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>world</b></td></tr>
-<tr class="separator:a4957142dfe9685ae59bfe469afbc709d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f159e6f9ff679e15bea0dd33acd0567" id="r_a5f159e6f9ff679e15bea0dd33acd0567"><td class="memItemLeft" align="right" valign="top"><a id="a5f159e6f9ff679e15bea0dd33acd0567" name="a5f159e6f9ff679e15bea0dd33acd0567"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>randomSeed</b></td></tr>
-<tr class="separator:a5f159e6f9ff679e15bea0dd33acd0567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0f32036c13598c6883450686c357a2d" id="r_af0f32036c13598c6883450686c357a2d"><td class="memItemLeft" align="right" valign="top"><a id="af0f32036c13598c6883450686c357a2d" name="af0f32036c13598c6883450686c357a2d"></a>
+<a class="el" href="structintpair.html">intpair</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bestStartPosition</b></td></tr>
+<tr class="separator:af0f32036c13598c6883450686c357a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f324a1e937eafee00ec17a47622ff65" id="r_a7f324a1e937eafee00ec17a47622ff65"><td class="memItemLeft" align="right" valign="top"><a id="a7f324a1e937eafee00ec17a47622ff65" name="a7f324a1e937eafee00ec17a47622ff65"></a>
+<a class="el" href="interfaceDatabase.html">Database</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>blockDatabase</b></td></tr>
+<tr class="separator:a7f324a1e937eafee00ec17a47622ff65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69d4e457e76b84b70899ec46c8d84648" id="r_a69d4e457e76b84b70899ec46c8d84648"><td class="memItemLeft" align="right" valign="top"><a id="a69d4e457e76b84b70899ec46c8d84648" name="a69d4e457e76b84b70899ec46c8d84648"></a>
 NSString *&#160;</td><td class="memItemRight" valign="bottom"><b>blockDirectory</b></td></tr>
 <tr class="separator:a69d4e457e76b84b70899ec46c8d84648"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eff387daaaa8d3caf8bb56e645e460d" id="r_a0eff387daaaa8d3caf8bb56e645e460d"><td class="memItemLeft" align="right" valign="top"><a id="a0eff387daaaa8d3caf8bb56e645e460d" name="a0eff387daaaa8d3caf8bb56e645e460d"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>heightNoiseFunctionA</b></td></tr>
-<tr class="separator:a0eff387daaaa8d3caf8bb56e645e460d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a38869f67da0378718fdc76cb4a8f93c7" id="r_a38869f67da0378718fdc76cb4a8f93c7"><td class="memItemLeft" align="right" valign="top"><a id="a38869f67da0378718fdc76cb4a8f93c7" name="a38869f67da0378718fdc76cb4a8f93c7"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>heightNoiseFunctionB</b></td></tr>
-<tr class="separator:a38869f67da0378718fdc76cb4a8f93c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f4a365b20a4651ea1c06e035ed90db8" id="r_a2f4a365b20a4651ea1c06e035ed90db8"><td class="memItemLeft" align="right" valign="top"><a id="a2f4a365b20a4651ea1c06e035ed90db8" name="a2f4a365b20a4651ea1c06e035ed90db8"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>faultNoiseFunction</b></td></tr>
-<tr class="separator:a2f4a365b20a4651ea1c06e035ed90db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35ba9d794ff70dccc09923f31c233789" id="r_a35ba9d794ff70dccc09923f31c233789"><td class="memItemLeft" align="right" valign="top"><a id="a35ba9d794ff70dccc09923f31c233789" name="a35ba9d794ff70dccc09923f31c233789"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>treeDensityNoiseFunction</b></td></tr>
-<tr class="separator:a35ba9d794ff70dccc09923f31c233789"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8948925609b379390bfadbc8b150426b" id="r_a8948925609b379390bfadbc8b150426b"><td class="memItemLeft" align="right" valign="top"><a id="a8948925609b379390bfadbc8b150426b" name="a8948925609b379390bfadbc8b150426b"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>rockTypeNoiseFunction</b></td></tr>
-<tr class="separator:a8948925609b379390bfadbc8b150426b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52bcc7c8e35c7eb1078c56db07334505" id="r_a52bcc7c8e35c7eb1078c56db07334505"><td class="memItemLeft" align="right" valign="top"><a id="a52bcc7c8e35c7eb1078c56db07334505" name="a52bcc7c8e35c7eb1078c56db07334505"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>flintDensityNoiseFunction</b></td></tr>
-<tr class="separator:a52bcc7c8e35c7eb1078c56db07334505"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45cb87fb25f535b5bfb3d08d4c313de8" id="r_a45cb87fb25f535b5bfb3d08d4c313de8"><td class="memItemLeft" align="right" valign="top"><a id="a45cb87fb25f535b5bfb3d08d4c313de8" name="a45cb87fb25f535b5bfb3d08d4c313de8"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>tinDensityNoiseFunction</b></td></tr>
-<tr class="separator:a45cb87fb25f535b5bfb3d08d4c313de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3654f44d671b27c54b7af2c85715072" id="r_ad3654f44d671b27c54b7af2c85715072"><td class="memItemLeft" align="right" valign="top"><a id="ad3654f44d671b27c54b7af2c85715072" name="ad3654f44d671b27c54b7af2c85715072"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>sandNoiseFunction</b></td></tr>
-<tr class="separator:ad3654f44d671b27c54b7af2c85715072"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b6af45076706b5c572484cd867dca78" id="r_a5b6af45076706b5c572484cd867dca78"><td class="memItemLeft" align="right" valign="top"><a id="a5b6af45076706b5c572484cd867dca78" name="a5b6af45076706b5c572484cd867dca78"></a>
-<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>seasonOffsetNoiseFunction</b></td></tr>
-<tr class="separator:a5b6af45076706b5c572484cd867dca78"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cde7debf47495c63f1e4277ee878705" id="r_a1cde7debf47495c63f1e4277ee878705"><td class="memItemLeft" align="right" valign="top"><a id="a1cde7debf47495c63f1e4277ee878705" name="a1cde7debf47495c63f1e4277ee878705"></a>
 <a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>caveNoiseFunctionA</b></td></tr>
 <tr class="separator:a1cde7debf47495c63f1e4277ee878705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95cb901808a2f0efba054127dfb63cd6" id="r_a95cb901808a2f0efba054127dfb63cd6"><td class="memItemLeft" align="right" valign="top"><a id="a95cb901808a2f0efba054127dfb63cd6" name="a95cb901808a2f0efba054127dfb63cd6"></a>
 <a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>caveNoiseFunctionB</b></td></tr>
 <tr class="separator:a95cb901808a2f0efba054127dfb63cd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8970ce9cb37c3dc8f076fcaf1941603c" id="r_a8970ce9cb37c3dc8f076fcaf1941603c"><td class="memItemLeft" align="right" valign="top"><a id="a8970ce9cb37c3dc8f076fcaf1941603c" name="a8970ce9cb37c3dc8f076fcaf1941603c"></a>
+int *&#160;</td><td class="memItemRight" valign="bottom"><b>dirtHeights</b></td></tr>
+<tr class="separator:a8970ce9cb37c3dc8f076fcaf1941603c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c8aed74fbb359fb59a94ad7aa6943db" id="r_a1c8aed74fbb359fb59a94ad7aa6943db"><td class="memItemLeft" align="right" valign="top"><a id="a1c8aed74fbb359fb59a94ad7aa6943db" name="a1c8aed74fbb359fb59a94ad7aa6943db"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>distanceOrderedFoodTypes</b> [31]</td></tr>
+<tr class="separator:a1c8aed74fbb359fb59a94ad7aa6943db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f4a365b20a4651ea1c06e035ed90db8" id="r_a2f4a365b20a4651ea1c06e035ed90db8"><td class="memItemLeft" align="right" valign="top"><a id="a2f4a365b20a4651ea1c06e035ed90db8" name="a2f4a365b20a4651ea1c06e035ed90db8"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>faultNoiseFunction</b></td></tr>
+<tr class="separator:a2f4a365b20a4651ea1c06e035ed90db8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52bcc7c8e35c7eb1078c56db07334505" id="r_a52bcc7c8e35c7eb1078c56db07334505"><td class="memItemLeft" align="right" valign="top"><a id="a52bcc7c8e35c7eb1078c56db07334505" name="a52bcc7c8e35c7eb1078c56db07334505"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>flintDensityNoiseFunction</b></td></tr>
+<tr class="separator:a52bcc7c8e35c7eb1078c56db07334505"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b5e863b65c24bdae1310d2d05b30162" id="r_a9b5e863b65c24bdae1310d2d05b30162"><td class="memItemLeft" align="right" valign="top"><a id="a9b5e863b65c24bdae1310d2d05b30162" name="a9b5e863b65c24bdae1310d2d05b30162"></a>
 <a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>gemNoiseFunction</b></td></tr>
 <tr class="separator:a9b5e863b65c24bdae1310d2d05b30162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3c5350dc97dc006114bafc72c6c675f" id="r_aa3c5350dc97dc006114bafc72c6c675f"><td class="memItemLeft" align="right" valign="top"><a id="aa3c5350dc97dc006114bafc72c6c675f" name="aa3c5350dc97dc006114bafc72c6c675f"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>treePositions</b></td></tr>
-<tr class="separator:aa3c5350dc97dc006114bafc72c6c675f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9ef89b8dd45a00ab656911eb5b52c32" id="r_ac9ef89b8dd45a00ab656911eb5b52c32"><td class="memItemLeft" align="right" valign="top"><a id="ac9ef89b8dd45a00ab656911eb5b52c32" name="ac9ef89b8dd45a00ab656911eb5b52c32"></a>
+BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>hasRefinedTerrain</b></td></tr>
+<tr class="separator:ac9ef89b8dd45a00ab656911eb5b52c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0eff387daaaa8d3caf8bb56e645e460d" id="r_a0eff387daaaa8d3caf8bb56e645e460d"><td class="memItemLeft" align="right" valign="top"><a id="a0eff387daaaa8d3caf8bb56e645e460d" name="a0eff387daaaa8d3caf8bb56e645e460d"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>heightNoiseFunctionA</b></td></tr>
+<tr class="separator:a0eff387daaaa8d3caf8bb56e645e460d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38869f67da0378718fdc76cb4a8f93c7" id="r_a38869f67da0378718fdc76cb4a8f93c7"><td class="memItemLeft" align="right" valign="top"><a id="a38869f67da0378718fdc76cb4a8f93c7" name="a38869f67da0378718fdc76cb4a8f93c7"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>heightNoiseFunctionB</b></td></tr>
+<tr class="separator:a38869f67da0378718fdc76cb4a8f93c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a63920b74f303b23413f3d71b13c9b5" id="r_a4a63920b74f303b23413f3d71b13c9b5"><td class="memItemLeft" align="right" valign="top"><a id="a4a63920b74f303b23413f3d71b13c9b5" name="a4a63920b74f303b23413f3d71b13c9b5"></a>
+<a class="el" href="structintpair.html">intpair</a>&#160;</td><td class="memItemRight" valign="bottom"><b>highestPoint</b></td></tr>
+<tr class="separator:a4a63920b74f303b23413f3d71b13c9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91fe268ff03f922ef42739dc941f3680" id="r_a91fe268ff03f922ef42739dc941f3680"><td class="memItemLeft" align="right" valign="top"><a id="a91fe268ff03f922ef42739dc941f3680" name="a91fe268ff03f922ef42739dc941f3680"></a>
+int *&#160;</td><td class="memItemRight" valign="bottom"><b>lakeHeights</b></td></tr>
+<tr class="separator:a91fe268ff03f922ef42739dc941f3680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa27060db6c9f4bd09503a733eb968cf8" id="r_aa27060db6c9f4bd09503a733eb968cf8"><td class="memItemLeft" align="right" valign="top"><a id="aa27060db6c9f4bd09503a733eb968cf8" name="aa27060db6c9f4bd09503a733eb968cf8"></a>
+<a class="el" href="interfaceDatabase.html">Database</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>lightBlockDatabase</b></td></tr>
+<tr class="separator:aa27060db6c9f4bd09503a733eb968cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a185d05aa50b76ff786e8b4ed96893cc5" id="r_a185d05aa50b76ff786e8b4ed96893cc5"><td class="memItemLeft" align="right" valign="top"><a id="a185d05aa50b76ff786e8b4ed96893cc5" name="a185d05aa50b76ff786e8b4ed96893cc5"></a>
+<a class="el" href="interfaceDatabaseEnvironment.html">DatabaseEnvironment</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>lightBlockDatabaseEnvironment</b></td></tr>
+<tr class="separator:a185d05aa50b76ff786e8b4ed96893cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5785d12364e7b52559ee0df7d81f7848" id="r_a5785d12364e7b52559ee0df7d81f7848"><td class="memItemLeft" align="right" valign="top"><a id="a5785d12364e7b52559ee0df7d81f7848" name="a5785d12364e7b52559ee0df7d81f7848"></a>
+BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>needsToExit</b></td></tr>
+<tr class="separator:a5785d12364e7b52559ee0df7d81f7848"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd060cbf13aec2391b1a8f66b5741c09" id="r_abd060cbf13aec2391b1a8f66b5741c09"><td class="memItemLeft" align="right" valign="top"><a id="abd060cbf13aec2391b1a8f66b5741c09" name="abd060cbf13aec2391b1a8f66b5741c09"></a>
 int *&#160;</td><td class="memItemRight" valign="bottom"><b>npcPositions</b></td></tr>
 <tr class="separator:abd060cbf13aec2391b1a8f66b5741c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62816af26ae5866e7936129ab9e41a4b" id="r_a62816af26ae5866e7936129ab9e41a4b"><td class="memItemLeft" align="right" valign="top"><a id="a62816af26ae5866e7936129ab9e41a4b" name="a62816af26ae5866e7936129ab9e41a4b"></a>
 int *&#160;</td><td class="memItemRight" valign="bottom"><b>plantPositions</b></td></tr>
 <tr class="separator:a62816af26ae5866e7936129ab9e41a4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0f32036c13598c6883450686c357a2d" id="r_af0f32036c13598c6883450686c357a2d"><td class="memItemLeft" align="right" valign="top"><a id="af0f32036c13598c6883450686c357a2d" name="af0f32036c13598c6883450686c357a2d"></a>
-<a class="el" href="structintpair.html">intpair</a>&#160;</td><td class="memItemRight" valign="bottom"><b>bestStartPosition</b></td></tr>
-<tr class="separator:af0f32036c13598c6883450686c357a2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a63920b74f303b23413f3d71b13c9b5" id="r_a4a63920b74f303b23413f3d71b13c9b5"><td class="memItemLeft" align="right" valign="top"><a id="a4a63920b74f303b23413f3d71b13c9b5" name="a4a63920b74f303b23413f3d71b13c9b5"></a>
-<a class="el" href="structintpair.html">intpair</a>&#160;</td><td class="memItemRight" valign="bottom"><b>highestPoint</b></td></tr>
-<tr class="separator:a4a63920b74f303b23413f3d71b13c9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8970ce9cb37c3dc8f076fcaf1941603c" id="r_a8970ce9cb37c3dc8f076fcaf1941603c"><td class="memItemLeft" align="right" valign="top"><a id="a8970ce9cb37c3dc8f076fcaf1941603c" name="a8970ce9cb37c3dc8f076fcaf1941603c"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>dirtHeights</b></td></tr>
-<tr class="separator:a8970ce9cb37c3dc8f076fcaf1941603c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37be59c672586f44fd3cd808f541e52c" id="r_a37be59c672586f44fd3cd808f541e52c"><td class="memItemLeft" align="right" valign="top"><a id="a37be59c672586f44fd3cd808f541e52c" name="a37be59c672586f44fd3cd808f541e52c"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>rockHeights</b></td></tr>
-<tr class="separator:a37be59c672586f44fd3cd808f541e52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91fe268ff03f922ef42739dc941f3680" id="r_a91fe268ff03f922ef42739dc941f3680"><td class="memItemLeft" align="right" valign="top"><a id="a91fe268ff03f922ef42739dc941f3680" name="a91fe268ff03f922ef42739dc941f3680"></a>
-int *&#160;</td><td class="memItemRight" valign="bottom"><b>lakeHeights</b></td></tr>
-<tr class="separator:a91fe268ff03f922ef42739dc941f3680"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9ef89b8dd45a00ab656911eb5b52c32" id="r_ac9ef89b8dd45a00ab656911eb5b52c32"><td class="memItemLeft" align="right" valign="top"><a id="ac9ef89b8dd45a00ab656911eb5b52c32" name="ac9ef89b8dd45a00ab656911eb5b52c32"></a>
-BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>hasRefinedTerrain</b></td></tr>
-<tr class="separator:ac9ef89b8dd45a00ab656911eb5b52c32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c8aed74fbb359fb59a94ad7aa6943db" id="r_a1c8aed74fbb359fb59a94ad7aa6943db"><td class="memItemLeft" align="right" valign="top"><a id="a1c8aed74fbb359fb59a94ad7aa6943db" name="a1c8aed74fbb359fb59a94ad7aa6943db"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>distanceOrderedFoodTypes</b> [31]</td></tr>
-<tr class="separator:a1c8aed74fbb359fb59a94ad7aa6943db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f159e6f9ff679e15bea0dd33acd0567" id="r_a5f159e6f9ff679e15bea0dd33acd0567"><td class="memItemLeft" align="right" valign="top"><a id="a5f159e6f9ff679e15bea0dd33acd0567" name="a5f159e6f9ff679e15bea0dd33acd0567"></a>
+unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>randomSeed</b></td></tr>
+<tr class="separator:a5f159e6f9ff679e15bea0dd33acd0567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acaf8be55fbf6df4d8fcec2f3fbd0af87" id="r_acaf8be55fbf6df4d8fcec2f3fbd0af87"><td class="memItemLeft" align="right" valign="top"><a id="acaf8be55fbf6df4d8fcec2f3fbd0af87" name="acaf8be55fbf6df4d8fcec2f3fbd0af87"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>refineTerrainCount</b></td></tr>
 <tr class="separator:acaf8be55fbf6df4d8fcec2f3fbd0af87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5785d12364e7b52559ee0df7d81f7848" id="r_a5785d12364e7b52559ee0df7d81f7848"><td class="memItemLeft" align="right" valign="top"><a id="a5785d12364e7b52559ee0df7d81f7848" name="a5785d12364e7b52559ee0df7d81f7848"></a>
-BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>needsToExit</b></td></tr>
-<tr class="separator:a5785d12364e7b52559ee0df7d81f7848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37be59c672586f44fd3cd808f541e52c" id="r_a37be59c672586f44fd3cd808f541e52c"><td class="memItemLeft" align="right" valign="top"><a id="a37be59c672586f44fd3cd808f541e52c" name="a37be59c672586f44fd3cd808f541e52c"></a>
+int *&#160;</td><td class="memItemRight" valign="bottom"><b>rockHeights</b></td></tr>
+<tr class="separator:a37be59c672586f44fd3cd808f541e52c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8948925609b379390bfadbc8b150426b" id="r_a8948925609b379390bfadbc8b150426b"><td class="memItemLeft" align="right" valign="top"><a id="a8948925609b379390bfadbc8b150426b" name="a8948925609b379390bfadbc8b150426b"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>rockTypeNoiseFunction</b></td></tr>
+<tr class="separator:a8948925609b379390bfadbc8b150426b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3654f44d671b27c54b7af2c85715072" id="r_ad3654f44d671b27c54b7af2c85715072"><td class="memItemLeft" align="right" valign="top"><a id="ad3654f44d671b27c54b7af2c85715072" name="ad3654f44d671b27c54b7af2c85715072"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>sandNoiseFunction</b></td></tr>
+<tr class="separator:ad3654f44d671b27c54b7af2c85715072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b6af45076706b5c572484cd867dca78" id="r_a5b6af45076706b5c572484cd867dca78"><td class="memItemLeft" align="right" valign="top"><a id="a5b6af45076706b5c572484cd867dca78" name="a5b6af45076706b5c572484cd867dca78"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>seasonOffsetNoiseFunction</b></td></tr>
+<tr class="separator:a5b6af45076706b5c572484cd867dca78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45cb87fb25f535b5bfb3d08d4c313de8" id="r_a45cb87fb25f535b5bfb3d08d4c313de8"><td class="memItemLeft" align="right" valign="top"><a id="a45cb87fb25f535b5bfb3d08d4c313de8" name="a45cb87fb25f535b5bfb3d08d4c313de8"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>tinDensityNoiseFunction</b></td></tr>
+<tr class="separator:a45cb87fb25f535b5bfb3d08d4c313de8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35ba9d794ff70dccc09923f31c233789" id="r_a35ba9d794ff70dccc09923f31c233789"><td class="memItemLeft" align="right" valign="top"><a id="a35ba9d794ff70dccc09923f31c233789" name="a35ba9d794ff70dccc09923f31c233789"></a>
+<a class="el" href="interfaceNoiseFunction.html">NoiseFunction</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>treeDensityNoiseFunction</b></td></tr>
+<tr class="separator:a35ba9d794ff70dccc09923f31c233789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3c5350dc97dc006114bafc72c6c675f" id="r_aa3c5350dc97dc006114bafc72c6c675f"><td class="memItemLeft" align="right" valign="top"><a id="aa3c5350dc97dc006114bafc72c6c675f" name="aa3c5350dc97dc006114bafc72c6c675f"></a>
+int *&#160;</td><td class="memItemRight" valign="bottom"><b>treePositions</b></td></tr>
+<tr class="separator:aa3c5350dc97dc006114bafc72c6c675f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4957142dfe9685ae59bfe469afbc709d" id="r_a4957142dfe9685ae59bfe469afbc709d"><td class="memItemLeft" align="right" valign="top"><a id="a4957142dfe9685ae59bfe469afbc709d" name="a4957142dfe9685ae59bfe469afbc709d"></a>
+<a class="el" href="interfaceWorld.html">World</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>world</b></td></tr>
+<tr class="separator:a4957142dfe9685ae59bfe469afbc709d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af65fb779da4f6fbcd519f3beed294038" id="r_af65fb779da4f6fbcd519f3beed294038"><td class="memItemLeft" align="right" valign="top"><a id="af65fb779da4f6fbcd519f3beed294038" name="af65fb779da4f6fbcd519f3beed294038"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>xFrequencyMultiplier</b></td></tr>
 <tr class="separator:af65fb779da4f6fbcd519f3beed294038"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a988e2ebbede787b600de96abedc00d09" id="r_a988e2ebbede787b600de96abedc00d09"><td class="memItemLeft" align="right" valign="top"><a id="a988e2ebbede787b600de96abedc00d09" name="a988e2ebbede787b600de96abedc00d09"></a>
 float&#160;</td><td class="memItemRight" valign="bottom"><b>yHeightDivider</b></td></tr>
 <tr class="separator:a988e2ebbede787b600de96abedc00d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a185d05aa50b76ff786e8b4ed96893cc5" id="r_a185d05aa50b76ff786e8b4ed96893cc5"><td class="memItemLeft" align="right" valign="top"><a id="a185d05aa50b76ff786e8b4ed96893cc5" name="a185d05aa50b76ff786e8b4ed96893cc5"></a>
-<a class="el" href="interfaceDatabaseEnvironment.html">DatabaseEnvironment</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>lightBlockDatabaseEnvironment</b></td></tr>
-<tr class="separator:a185d05aa50b76ff786e8b4ed96893cc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa27060db6c9f4bd09503a733eb968cf8" id="r_aa27060db6c9f4bd09503a733eb968cf8"><td class="memItemLeft" align="right" valign="top"><a id="aa27060db6c9f4bd09503a733eb968cf8" name="aa27060db6c9f4bd09503a733eb968cf8"></a>
-<a class="el" href="interfaceDatabase.html">Database</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>lightBlockDatabase</b></td></tr>
-<tr class="separator:aa27060db6c9f4bd09503a733eb968cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f324a1e937eafee00ec17a47622ff65" id="r_a7f324a1e937eafee00ec17a47622ff65"><td class="memItemLeft" align="right" valign="top"><a id="a7f324a1e937eafee00ec17a47622ff65" name="a7f324a1e937eafee00ec17a47622ff65"></a>
-<a class="el" href="interfaceDatabase.html">Database</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>blockDatabase</b></td></tr>
-<tr class="separator:a7f324a1e937eafee00ec17a47622ff65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>SharedSource/<b>WorldTileLoader.h</b></li>
