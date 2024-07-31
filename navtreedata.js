@@ -34,8 +34,8 @@ var NAVTREE =
       [ "Class Index", "classes.html", null ],
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
-        [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+        [ "All", "functions.html", "functions_dup" ],
+        [ "Functions", "functions_func.html", "functions_func" ]
       ] ]
     ] ]
   ] ]
@@ -44,8 +44,25 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "annotated.html",
-"interfaceGemTree.html#a256be4bc5c772ba2dea25841f39acf15",
-"interfaceTree.html#ac5a308223d04dc242af8d5b5a4983d84"
+"interfaceBed.html#a7776702429066a99eb036036f0baa842",
+"interfaceCactusTree.html#ad450e5b0206a95cf217974992070f2e5",
+"interfaceChest.html#a7776702429066a99eb036036f0baa842",
+"interfaceCoconutTree.html#af8fc2d3be6b237609acd87c462c17f4f",
+"interfaceDodo.html#a7cc2e3330a27152e62d953f5001ae4e4",
+"interfaceDropBear.html#a6a17544c5f42777e584635ba4396aa47",
+"interfaceElevatorShaft.html#a6e18404a4392f9c2aa92e1bd8921344b",
+"interfaceFreightCar.html#a39c641ba049e08ce8d9028cbf86781ac",
+"interfaceGlowBlock.html#aca5f561a24339f1c96466585ae28e32f",
+"interfaceLadder.html#accb5d9f8c2c52dc2d918b9a4fe45cd82",
+"interfaceMapleTree.html#a8502d0cebe04df965af64870eedc8e6d",
+"interfaceOrangeTree.html#a3af208d10e16ce5233fae1b518a4ae23",
+"interfacePassengerCar.html#ae61d2492eded03da66bb999e153c47e3",
+"interfaceScorpion.html#a7cc2e3330a27152e62d953f5001ae4e4",
+"interfaceStairs.html#a6ad6e53294c84b43d0b041124a1bcf19",
+"interfaceTomatoPlant.html#a5bcfcc92756a894a8bf6bbd68b963015",
+"interfaceTrainCar.html#a58b3ddba1a9956d09a350cb551a875a9",
+"interfaceTulipPlant.html#ad0f0701dc82ccb9ddd3f72e50548cf8d",
+"interfaceWire.html#aca5f561a24339f1c96466585ae28e32f"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

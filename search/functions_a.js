@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['nopathtoaction_0',['noPathToAction',['../interfaceBlockheadAI.html#a373a5d9750b5470041172167df1c2d3e',1,'BlockheadAI']]],
-  ['normal_1',['normal',['../classVector.html#a630322761243c82a9b9dc239e6b461a0',1,'Vector']]]
+  ['maketiledead_3a_0',['makeTileDead:',['../interfaceAppleTree.html#a48ce19d1b3277da5890f8a57df12ea51',1,'AppleTree::makeTileDead:()'],['../interfaceCactusTree.html#a426d88164aeae31b0ed7746c36416df0',1,'CactusTree::makeTileDead:()'],['../interfaceCherryTree.html#ad3b60fceb7b4751c70f8e95834a4c759',1,'CherryTree::makeTileDead:()'],['../interfaceCoconutTree.html#afdc887425431ce7b24bf9100ef520adc',1,'CoconutTree::makeTileDead:()'],['../interfaceCoffeeTree.html#a4c46114137581c079016b94cedc9859c',1,'CoffeeTree::makeTileDead:()'],['../interfaceGemTree.html#ad14749009ad847945f7838392d21aac1',1,'GemTree::makeTileDead:()'],['../interfaceLimeTree.html#af868e8c8c9e72ef1a9919942503a3063',1,'LimeTree::makeTileDead:()'],['../interfaceMangoTree.html#adfe0c819772c8272b5f1a9247c82787d',1,'MangoTree::makeTileDead:()'],['../interfaceMapleTree.html#a7e181abc5d92cfdf5b863468ce63c8bb',1,'MapleTree::makeTileDead:()'],['../interfaceOrangeTree.html#af288ae764c711e085e001de9251bdb16',1,'OrangeTree::makeTileDead:()'],['../interfacePineTree.html#a46f86f2dd15753bb822f91465180dc3d',1,'PineTree::makeTileDead:()'],['../interfaceTree.html#a4daa2b7981d5564f4244dee47160c80a',1,'Tree::makeTileDead:(Tile *tile)']]],
+  ['maxheightgenevariation_1',['maxHeightGeneVariation',['../interfaceTree.html#a4eacc040410a375a584237ec8ec3cea6',1,'Tree']]],
+  ['mayonlyberemovedbyowner_2',['mayOnlyBeRemovedByOwner',['../interfaceDynamicObject.html#a2032eb7714456280cc5e06abb973e5ef',1,'DynamicObject']]]
 ];

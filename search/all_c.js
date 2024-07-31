@@ -5,10 +5,11 @@ var searchData=
   ['mangotree_2',['MangoTree',['../interfaceMangoTree.html',1,'']]],
   ['mapletree_3',['MapleTree',['../interfaceMapleTree.html',1,'']]],
   ['maxheightgenevariation_4',['maxHeightGeneVariation',['../interfaceTree.html#a4eacc040410a375a584237ec8ec3cea6',1,'Tree']]],
-  ['mirror_5',['Mirror',['../interfaceMirror.html',1,'']]],
-  ['mjcolor_6',['MJColor',['../structMJColor.html',1,'']]],
-  ['mjcolor8_7',['MJColor8',['../structMJColor8.html',1,'']]],
-  ['mjmultisound_8',['MJMultiSound',['../interfaceMJMultiSound.html',1,'']]],
-  ['mjsound_9',['MJSound',['../interfaceMJSound.html',1,'']]],
-  ['mjsoundmanager_10',['MJSoundManager',['../interfaceMJSoundManager.html',1,'']]]
+  ['mayonlyberemovedbyowner_5',['mayOnlyBeRemovedByOwner',['../interfaceDynamicObject.html#a2032eb7714456280cc5e06abb973e5ef',1,'DynamicObject']]],
+  ['mirror_6',['Mirror',['../interfaceMirror.html',1,'']]],
+  ['mjcolor_7',['MJColor',['../structMJColor.html',1,'']]],
+  ['mjcolor8_8',['MJColor8',['../structMJColor8.html',1,'']]],
+  ['mjmultisound_9',['MJMultiSound',['../interfaceMJMultiSound.html',1,'']]],
+  ['mjsound_10',['MJSound',['../interfaceMJSound.html',1,'']]],
+  ['mjsoundmanager_11',['MJSoundManager',['../interfaceMJSoundManager.html',1,'']]]
 ];
