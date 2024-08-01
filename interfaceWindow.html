@@ -209,6 +209,7 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a6ad6e53294c84b43d0b041124a1bcf19" id="r_a6ad6e53294c84b43d0b041124a1bcf19"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfaceDynamicObject.html#a6ad6e53294c84b43d0b041124a1bcf19">needsNetDataToBeSent</a></td></tr>
 <tr class="separator:a6ad6e53294c84b43d0b041124a1bcf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d1734eb1f25aa05e8673ff815c5fb44" id="r_a7d1734eb1f25aa05e8673ff815c5fb44"><td class="memItemLeft" align="right" valign="top">(int)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#a7d1734eb1f25aa05e8673ff815c5fb44">objectType</a></td></tr>
+<tr class="memdesc:a7d1734eb1f25aa05e8673ff815c5fb44"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns the object type of this <a class="el" href="interfaceDynamicObject.html" title="DynamicObject superclass.">DynamicObject</a>.  <br /></td></tr>
 <tr class="separator:a7d1734eb1f25aa05e8673ff815c5fb44"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9838f09b111540756e416557a25451db" id="r_a9838f09b111540756e416557a25451db"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#a9838f09b111540756e416557a25451db">occupiesBackgroundContents</a></td></tr>
 <tr class="memdesc:a9838f09b111540756e416557a25451db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if this object occupies background contents.  <br /></td></tr>
@@ -621,7 +622,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">buffer</td><td></td></tr>
@@ -693,7 +694,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">blockhead</td><td></td></tr>
@@ -748,7 +749,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#a3325dff1b3a83af6bf21e4bd01ccd79f">InteractionObject</a>, and <a class="el" href="interfacePlant.html#ab5749ecb24ff05e820adea04941f7acf">Plant</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a906fab6b3e477e61b080ddb689023dbc">Bed</a>, <a class="el" href="interfaceInteractionObject.html#a3325dff1b3a83af6bf21e4bd01ccd79f">InteractionObject</a>, and <a class="el" href="interfacePlant.html#ab5749ecb24ff05e820adea04941f7acf">Plant</a>.</p>
 
 </div>
 </div>
@@ -830,6 +831,8 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
   </dd>
 </dl>
 
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a6aa2b4415d1efc49c8b21617faba6d34">Bed</a>.</p>
+
 </div>
 </div>
 <a id="aca5f561a24339f1c96466585ae28e32f" name="aca5f561a24339f1c96466585ae28e32f"></a>
@@ -846,7 +849,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
@@ -868,7 +871,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
 <dl class="section note"><dt>Note</dt><dd>The use of this function is currently unknown.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceBed.html#a781faa835736e32fb154bc414ae0972a">Bed</a>, <a class="el" href="interfaceChest.html#a7c9d4c1faa263616ef912eff06cb7b2d">Chest</a>, <a class="el" href="interfaceColumn.html#ad34448f7cfec9e526ee60bd24d4b5c47">Column</a>, <a class="el" href="interfaceDoor.html#ac0ddc89df67cc580a178648b47e02e8d">Door</a>, <a class="el" href="interfaceEgg.html#ab2ea427095815f4a9520055c7c811852">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a70f56079adcba3961c00d23aa89f4f52">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#ac4471371ddf4c5dbf29cd30ca7c44160">ElevatorShaft</a>, <a class="el" href="interfaceLadder.html#a477e4ea0e879d0827441edf10aef5646">Ladder</a>, <a class="el" href="interfaceMirror.html#a3ad4d3e55ca26b93cd1e1b58d3d9b133">Mirror</a>, <a class="el" href="interfacePainting.html#a0ab76f0f47186ad335257f1755495996">Painting</a>, <a class="el" href="interfaceRail.html#a489f7aeea5fb83dcdbc2f7145794b041">Rail</a>, <a class="el" href="interfaceSign.html#a279fcd66f1220b20f8d8d4033dc534ee">Sign</a>, <a class="el" href="interfaceStairs.html#a6270a3abe84d4e6569fcb5db97f1a4de">Stairs</a>, <a class="el" href="interfaceTorch.html#a20bb93421375a58d38afd1c1462ee5fb">Torch</a>, <a class="el" href="interfaceTradePortal.html#a441e81528159a335e6f1278028e30d5a">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#aaf6441652d32400d185c479fd807e6df">TradingPost</a>, <a class="el" href="interfaceTrainStation.html#a961b2fba3af6ff1a3e2bc005e4613835">TrainStation</a>, <a class="el" href="interfaceWire.html#a61eb28e7e672eb3315a3c30955cf8221">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a2a4076678de31e2a3d5463e612fef372">Workbench</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a30c0cf14c7e1113d4c4f2b2941ee3b10">Bed</a>, <a class="el" href="interfaceChest.html#a7c9d4c1faa263616ef912eff06cb7b2d">Chest</a>, <a class="el" href="interfaceColumn.html#ad34448f7cfec9e526ee60bd24d4b5c47">Column</a>, <a class="el" href="interfaceDoor.html#ac0ddc89df67cc580a178648b47e02e8d">Door</a>, <a class="el" href="interfaceEgg.html#ab2ea427095815f4a9520055c7c811852">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a70f56079adcba3961c00d23aa89f4f52">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#ac4471371ddf4c5dbf29cd30ca7c44160">ElevatorShaft</a>, <a class="el" href="interfaceLadder.html#a477e4ea0e879d0827441edf10aef5646">Ladder</a>, <a class="el" href="interfaceMirror.html#a3ad4d3e55ca26b93cd1e1b58d3d9b133">Mirror</a>, <a class="el" href="interfacePainting.html#a0ab76f0f47186ad335257f1755495996">Painting</a>, <a class="el" href="interfaceRail.html#a489f7aeea5fb83dcdbc2f7145794b041">Rail</a>, <a class="el" href="interfaceSign.html#a279fcd66f1220b20f8d8d4033dc534ee">Sign</a>, <a class="el" href="interfaceStairs.html#a6270a3abe84d4e6569fcb5db97f1a4de">Stairs</a>, <a class="el" href="interfaceTorch.html#a20bb93421375a58d38afd1c1462ee5fb">Torch</a>, <a class="el" href="interfaceTradePortal.html#a441e81528159a335e6f1278028e30d5a">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#aaf6441652d32400d185c479fd807e6df">TradingPost</a>, <a class="el" href="interfaceTrainStation.html#a961b2fba3af6ff1a3e2bc005e4613835">TrainStation</a>, <a class="el" href="interfaceWire.html#a61eb28e7e672eb3315a3c30955cf8221">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a2a4076678de31e2a3d5463e612fef372">Workbench</a>.</p>
 
 </div>
 </div>
@@ -889,7 +892,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
 <dl class="section note"><dt>Note</dt><dd>The use of this function is currently unknown.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceBed.html#abfeb69024af902c5672e66a8932eea8b">Bed</a>, <a class="el" href="interfaceChest.html#aa4e09b8d2d909d03faaa0d082beae09e">Chest</a>, <a class="el" href="interfaceColumn.html#ad08b9f80deadc7dbf7ae106b64f4d485">Column</a>, <a class="el" href="interfaceDoor.html#a4729b7ca961d325b31ea23290726d30f">Door</a>, <a class="el" href="interfaceEgg.html#a9ac450a4e1243a23d580f2cf99b13ae0">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a6b566ace8723f5c51735041a396e8774">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#a8b1e231311474ee07eb28fd19331e433">ElevatorShaft</a>, <a class="el" href="interfaceLadder.html#ae58d4aed2a7299bdafa1e9b082cb544b">Ladder</a>, <a class="el" href="interfaceMirror.html#a813878a92aac49abf27223d7a73a3ed6">Mirror</a>, <a class="el" href="interfacePainting.html#a26bda35e195d86efff16b2e67c06248c">Painting</a>, <a class="el" href="interfaceRail.html#a56ba0c7c847c515896ea78ca41ee7e00">Rail</a>, <a class="el" href="interfaceSign.html#a179e1ffe330816f82bd28471cd8f9b34">Sign</a>, <a class="el" href="interfaceStairs.html#a50110114ba360b5bb0df2d26f888e53d">Stairs</a>, <a class="el" href="interfaceTorch.html#a6826ce3f8235ea2b32d4d68464a94690">Torch</a>, <a class="el" href="interfaceTradePortal.html#abe9d3e5981da6875f56b8611297b2745">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#ad92864d5fc27d79f60e463573f4399eb">TradingPost</a>, <a class="el" href="interfaceTrainStation.html#aebbf335b6bade8cf2e32cad620f45b58">TrainStation</a>, <a class="el" href="interfaceWire.html#a6bf873bc69bbadefa55edf66cd6cb33b">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a07749c0e9ff6c510ba339b0c8fe23957">Workbench</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a418f87c241102439fe31728001c2688f">Bed</a>, <a class="el" href="interfaceChest.html#aa4e09b8d2d909d03faaa0d082beae09e">Chest</a>, <a class="el" href="interfaceColumn.html#ad08b9f80deadc7dbf7ae106b64f4d485">Column</a>, <a class="el" href="interfaceDoor.html#a4729b7ca961d325b31ea23290726d30f">Door</a>, <a class="el" href="interfaceEgg.html#a9ac450a4e1243a23d580f2cf99b13ae0">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a6b566ace8723f5c51735041a396e8774">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#a8b1e231311474ee07eb28fd19331e433">ElevatorShaft</a>, <a class="el" href="interfaceLadder.html#ae58d4aed2a7299bdafa1e9b082cb544b">Ladder</a>, <a class="el" href="interfaceMirror.html#a813878a92aac49abf27223d7a73a3ed6">Mirror</a>, <a class="el" href="interfacePainting.html#a26bda35e195d86efff16b2e67c06248c">Painting</a>, <a class="el" href="interfaceRail.html#a56ba0c7c847c515896ea78ca41ee7e00">Rail</a>, <a class="el" href="interfaceSign.html#a179e1ffe330816f82bd28471cd8f9b34">Sign</a>, <a class="el" href="interfaceStairs.html#a50110114ba360b5bb0df2d26f888e53d">Stairs</a>, <a class="el" href="interfaceTorch.html#a6826ce3f8235ea2b32d4d68464a94690">Torch</a>, <a class="el" href="interfaceTradePortal.html#abe9d3e5981da6875f56b8611297b2745">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#ad92864d5fc27d79f60e463573f4399eb">TradingPost</a>, <a class="el" href="interfaceTrainStation.html#aebbf335b6bade8cf2e32cad620f45b58">TrainStation</a>, <a class="el" href="interfaceWire.html#a6bf873bc69bbadefa55edf66cd6cb33b">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a07749c0e9ff6c510ba339b0c8fe23957">Workbench</a>.</p>
 
 </div>
 </div>
@@ -930,7 +933,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
 <dl class="section note"><dt>Note</dt><dd>The use of this function is currently unknown.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceBed.html#a311e9232779865f071a2cda6ae916a6e">Bed</a>, <a class="el" href="interfaceChest.html#a16e9d4d4700dcdf128ea50e7ee682396">Chest</a>, <a class="el" href="interfaceColumn.html#a366ea9f026693307f8550b5b28241d96">Column</a>, <a class="el" href="interfaceDoor.html#a04c810e3fdeb38a505b8991811163238">Door</a>, <a class="el" href="interfaceEgg.html#a790e817e4fff4d9fc325a94dba0b9727">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a513f0424f10046f53e6dcc59b11f7b1e">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#a756f6c7af5337ec7705fc297b269e6c2">ElevatorShaft</a>, <a class="el" href="interfaceFreightCar.html#a3583bfb8c471a91d1d55af4e7bf9cc21">FreightCar</a>, <a class="el" href="interfaceLadder.html#a1b763688b653c2f694a2a5711e4a1fe5">Ladder</a>, <a class="el" href="interfaceMirror.html#a196cd0e990b5483524b729ac904ca4e8">Mirror</a>, <a class="el" href="interfacePainting.html#a9ea647c18c5c90e3322a2a6757bed74c">Painting</a>, <a class="el" href="interfaceRail.html#a680d91b97b2477ab291e57e5eb9edafe">Rail</a>, <a class="el" href="interfaceSign.html#abb51589ef5444b69b9b5e32a34e7fb10">Sign</a>, <a class="el" href="interfaceStairs.html#af41a447454995f4f3fac7d9ef9fc1c3a">Stairs</a>, <a class="el" href="interfaceTorch.html#ab1af54ac40e36b283e593307ac7dde1c">Torch</a>, <a class="el" href="interfaceTradePortal.html#a714104bf14342edaabeed6bb80597387">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#a40fcfdde8c7478c01180f2d145af2933">TradingPost</a>, <a class="el" href="interfaceTrainCar.html#a9799c5d9d1a4bb6b2e647a8de3e6a56a">TrainCar</a>, <a class="el" href="interfaceTrainStation.html#a704f22db3321b06d144ca60783465fb0">TrainStation</a>, <a class="el" href="interfaceWire.html#a9e90f6cd4e1b8dc6eb27443760619bf3">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a935a1dd69a2dd309f7628a88e1af410b">Workbench</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a15d54945eef68b2a74bda160f4d29284">Bed</a>, <a class="el" href="interfaceChest.html#a16e9d4d4700dcdf128ea50e7ee682396">Chest</a>, <a class="el" href="interfaceColumn.html#a366ea9f026693307f8550b5b28241d96">Column</a>, <a class="el" href="interfaceDoor.html#a04c810e3fdeb38a505b8991811163238">Door</a>, <a class="el" href="interfaceEgg.html#a790e817e4fff4d9fc325a94dba0b9727">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a513f0424f10046f53e6dcc59b11f7b1e">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#a756f6c7af5337ec7705fc297b269e6c2">ElevatorShaft</a>, <a class="el" href="interfaceFreightCar.html#a3583bfb8c471a91d1d55af4e7bf9cc21">FreightCar</a>, <a class="el" href="interfaceLadder.html#a1b763688b653c2f694a2a5711e4a1fe5">Ladder</a>, <a class="el" href="interfaceMirror.html#a196cd0e990b5483524b729ac904ca4e8">Mirror</a>, <a class="el" href="interfacePainting.html#a9ea647c18c5c90e3322a2a6757bed74c">Painting</a>, <a class="el" href="interfaceRail.html#a680d91b97b2477ab291e57e5eb9edafe">Rail</a>, <a class="el" href="interfaceSign.html#abb51589ef5444b69b9b5e32a34e7fb10">Sign</a>, <a class="el" href="interfaceStairs.html#af41a447454995f4f3fac7d9ef9fc1c3a">Stairs</a>, <a class="el" href="interfaceTorch.html#ab1af54ac40e36b283e593307ac7dde1c">Torch</a>, <a class="el" href="interfaceTradePortal.html#a714104bf14342edaabeed6bb80597387">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#a40fcfdde8c7478c01180f2d145af2933">TradingPost</a>, <a class="el" href="interfaceTrainCar.html#a9799c5d9d1a4bb6b2e647a8de3e6a56a">TrainCar</a>, <a class="el" href="interfaceTrainStation.html#a704f22db3321b06d144ca60783465fb0">TrainStation</a>, <a class="el" href="interfaceWire.html#a9e90f6cd4e1b8dc6eb27443760619bf3">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a935a1dd69a2dd309f7628a88e1af410b">Workbench</a>.</p>
 
 </div>
 </div>
@@ -969,7 +972,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Reimplemented from <a class="el" href="interfaceDynamicObject.html#a3e217511925585127fc8210e5532754d">DynamicObject</a>.</p>
@@ -994,7 +997,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">wasSaveLoad</td><td></td></tr>
@@ -1034,7 +1037,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">world_</td><td></td></tr>
@@ -1091,7 +1094,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">world_</td><td></td></tr>
@@ -1136,7 +1139,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">world_</td><td></td></tr>
@@ -1148,7 +1151,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#ad9e58a3ef2657eadbd3497c1591abc98">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a04b0789477d7c4f9bf62bd453d6109e2">Plant</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a8aeb1925ade233fa6740e5822bf49f7a">Bed</a>, <a class="el" href="interfaceInteractionObject.html#ad9e58a3ef2657eadbd3497c1591abc98">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a04b0789477d7c4f9bf62bd453d6109e2">Plant</a>.</p>
 
 </div>
 </div>
@@ -1180,7 +1183,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">world_</td><td></td></tr>
@@ -1192,7 +1195,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#a0b1fb221b5de52b1ac5db646dc388292">InteractionObject</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a583cfb04562707a36b1537d25ef71671">Bed</a>, and <a class="el" href="interfaceInteractionObject.html#a0b1fb221b5de52b1ac5db646dc388292">InteractionObject</a>.</p>
 
 </div>
 </div>
@@ -1332,8 +1335,9 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section note"><dt>Note</dt><dd>The use of this function is currently unknown.</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>This returns the object type of this <a class="el" href="interfaceDynamicObject.html" title="DynamicObject superclass.">DynamicObject</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>DynamicObjectType of this <a class="el" href="interfaceDynamicObject.html" title="DynamicObject superclass.">DynamicObject</a> </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interfaceDynamicObject.html#a97eac46490884707f5bcff734183499f">DynamicObject</a>.</p>
 
@@ -1438,7 +1442,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">netData</td><td></td></tr>
@@ -1462,7 +1466,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">netData</td><td></td></tr>
@@ -1470,7 +1474,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#a2d4bd951c8da17b1d65ffcd2d25432d8">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a610ebd8c35aacb80c3a87f7e1c000ca5">Plant</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#ad95fc12cf1e6f088e284391161d98bec">Bed</a>, <a class="el" href="interfaceInteractionObject.html#a2d4bd951c8da17b1d65ffcd2d25432d8">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a610ebd8c35aacb80c3a87f7e1c000ca5">Plant</a>.</p>
 
 </div>
 </div>
@@ -1488,7 +1492,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo</a></b></dt><dd>Implement. </dd></dl>
 
 <p>Reimplemented in <a class="el" href="interfaceArtificialLight.html#a4bab9ddf90bd179df9c59d8baa4abdd8">ArtificialLight</a>, <a class="el" href="interfaceChest.html#afe5584faa9265598730e00e5c6e3c711">Chest</a>, <a class="el" href="interfaceColumn.html#a00aaec3206108d53b1fffa207c9cfa96">Column</a>, <a class="el" href="interfaceDoor.html#a3e97333f61a400969304ef26de7b05a6">Door</a>, <a class="el" href="interfaceEgg.html#a84e643cc8a55d7dd28389858e5f3c518">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#aa33d2cf99fa02563e098889304b1b19d">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#a7ab85f8c596091f9fe525e16793468d2">ElevatorShaft</a>, <a class="el" href="interfaceFireObject.html#a52631ad3987f7c51c71db59ea3ea8756">FireObject</a>, <a class="el" href="interfaceFreeBlock.html#a19b5cb05a2eb9b3c6e4e8e7052414a23">FreeBlock</a>, <a class="el" href="interfaceGlowBlock.html#ac1d870782d44b2b3775603a41a57ba8d">GlowBlock</a>, <a class="el" href="interfaceKelpPlant.html#a9cf5cef386d2599217f2a4dec0de9c33">KelpPlant</a>, <a class="el" href="interfaceLadder.html#ae15c846317569afc0f271dc25027d62e">Ladder</a>, <a class="el" href="interfaceMirror.html#a984a04fab5f4bf1ae7b24955ed9af3c1">Mirror</a>, <a class="el" href="interfaceNormalPlant.html#a4006836fbd171a25ba54f2b8ec8cade6">NormalPlant</a>, <a class="el" href="interfacePainting.html#a1bd6ffdbf69a2fb48ce6f67e2b10c10b">Painting</a>, <a class="el" href="interfacePlant.html#a31a3079699bf2bcf436449099de38a68">Plant</a>, <a class="el" href="interfaceRail.html#a3d0b4a0e5b0f1fc0cd7948c7fc021cae">Rail</a>, <a class="el" href="interfaceSign.html#a8705e8d0e0c1bb25a0186bdf65c60eae">Sign</a>, <a class="el" href="interfaceSnowSurfaceBlock.html#a2431a56f266974b625ba451e18780494">SnowSurfaceBlock</a>, <a class="el" href="interfaceStairs.html#a3c6a2e50f57a9171b3fe139266d91de6">Stairs</a>, <a class="el" href="interfaceSurfaceBlock.html#a7d064bac55b9ad026cf5c3b8e1057b33">SurfaceBlock</a>, <a class="el" href="interfaceTorch.html#aca00029de28b9871c45d76653200d0b8">Torch</a>, <a class="el" href="interfaceTradePortal.html#acb574aa108919e002c3b5bfe64f86def">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#a85002d8b4ae480a139c0d9c51e8f6984">TradingPost</a>, <a class="el" href="interfaceTrainCar.html#a049d2de0250ae15f60dc845baa436d01">TrainCar</a>, <a class="el" href="interfaceTree.html#a2ba4d3632c484655d37c6f90b72795e2">Tree</a>, <a class="el" href="interfaceTulipPlant.html#a70264440cedecfe0a6a0a706f8b643a6">TulipPlant</a>, <a class="el" href="interfaceVinePlant.html#acbf1729f1cb0a6e2c3b2cce1fba8fdb9">VinePlant</a>, <a class="el" href="interfaceWire.html#a88e643080937af088a288662c12990f3">Wire</a>, and <a class="el" href="interfaceWorkbench.html#ac9ac68948e74fa7f3686db0c4f0c653e">Workbench</a>.</p>
 
@@ -1508,7 +1512,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo</a></b></dt><dd>Implement</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo</a></b></dt><dd>Implement</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Reimplemented in <a class="el" href="interfaceBoat.html#a90d9294fbe19d934d43e7fccde1d89e3">Boat</a>, <a class="el" href="interfaceClownFish.html#a039cd0c6ad3e7e6287c4c469d20b0daf">ClownFish</a>, <a class="el" href="interfaceDodo.html#ad25703b2050f2248bc06db694ad42c4b">Dodo</a>, <a class="el" href="interfaceDonkeyLike.html#a3aaa467ebf61daf12b659568c62f5ffc">DonkeyLike</a>, <a class="el" href="interfaceDropBear.html#ae75b340dc31607996dcc0f3630c972bf">DropBear</a>, <a class="el" href="interfaceFreightCar.html#a2f44fb865f3003dbc43478fc69d6f038">FreightCar</a>, <a class="el" href="interfaceHandCar.html#a636cf71d8d311d43245b9c1d7c476c52">HandCar</a>, <a class="el" href="interfaceNPC.html#ad779f7ff36e285fb274df212a68b5da2">NPC</a>, <a class="el" href="interfacePassengerCar.html#a1916cc93769e8376779381304223a3ad">PassengerCar</a>, <a class="el" href="interfaceScorpion.html#a12cb8d28af1613c1d08f935d44e1348b">Scorpion</a>, <a class="el" href="interfaceShark.html#a454283f8d53357b5e00152b307cab795">Shark</a>, <a class="el" href="interfaceSteamTrain.html#a48778d2c156c31f6ae10964fd607e2a8">SteamTrain</a>, and <a class="el" href="interfaceTrainCar.html#ab87eec863921a3dfd71fec8367752c61">TrainCar</a>.</p>
@@ -1550,7 +1554,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">floatPos_</td><td></td></tr>
@@ -1815,7 +1819,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="interfaceAppleTree.html#a6340f744cf54dd5d690c4500deea5954">AppleTree</a>, <a class="el" href="interfaceBed.html#a926eb1ede8893179b82197a03bda3740">Bed</a>, <a class="el" href="interfaceBlockhead.html#af7a3b3541ce5b1217729de8f2d698b1a">Blockhead</a>, <a class="el" href="interfaceBoat.html#acd71fc7122ee45b969ef9cf3f527e41b">Boat</a>, <a class="el" href="interfaceCactusTree.html#a8125cb3b0cbbd39afc8a2582c6b4ae55">CactusTree</a>, <a class="el" href="interfaceCaveTroll.html#a17c08515386d4bef4af0c0a61a88ca98">CaveTroll</a>, <a class="el" href="interfaceCherryTree.html#ac67ee27755308d6e30a04bc65f1de3f3">CherryTree</a>, <a class="el" href="interfaceChest.html#a5e7351168371dc54795d452fd704efd9">Chest</a>, <a class="el" href="interfaceClownFish.html#ad7a5c471cf32458479bf7fd1b4d7673a">ClownFish</a>, <a class="el" href="interfaceCoconutTree.html#a6b1d4ebc0b3b51b1479cce77d56713ee">CoconutTree</a>, <a class="el" href="interfaceCoffeeTree.html#a3e947375892f19f71b35a183c96c7edd">CoffeeTree</a>, <a class="el" href="interfaceColumn.html#a6805f518c6d840ae698b00c5334d09bc">Column</a>, <a class="el" href="interfaceDodo.html#ad5dee09c1808d3e642eee1f7e650fe26">Dodo</a>, <a class="el" href="interfaceDonkeyLike.html#a1cb42753c8472c0b2393f30eb4c5e0b3">DonkeyLike</a>, <a class="el" href="interfaceDropBear.html#a23ef9770721c399a6933d8663d3adc2e">DropBear</a>, <a class="el" href="interfaceEgg.html#a1c27489a08d19ee9458e27ba2677f3d6">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#ae118893eb517b49e07b86379634ec0c7">ElevatorMotor</a>, <a class="el" href="interfaceFireObject.html#a1f9fef50067d103b388980ec1be145b1">FireObject</a>, <a class="el" href="interfaceFreeBlock.html#a5131568c37316327615cf8f9cdaa9dae">FreeBlock</a>, <a class="el" href="interfaceFreightCar.html#a10f0de7b5ce013c7d6062d63ab1af1d4">FreightCar</a>, <a class="el" href="interfaceGatherBlock.html#afc2a73f731b3ee24cfad49dece53f2f5">GatherBlock</a>, <a class="el" href="interfaceGemTree.html#a1ce7d8d01d8ef0e0ad4503940ef89be4">GemTree</a>, <a class="el" href="interfaceHandCar.html#a9dea36b26e4997dd9ebbced00f36e1d1">HandCar</a>, <a class="el" href="interfaceInteractionObject.html#a4cda7b4e0d5a0fc9cf374fcdb6c63827">InteractionObject</a>, <a class="el" href="interfaceKelpPlant.html#a48da39e6f02fbc6430165dce55b2fb55">KelpPlant</a>, <a class="el" href="interfaceLimeTree.html#a5bad0f93ff6604c1c3915f9553d8fa98">LimeTree</a>, <a class="el" href="interfaceMangoTree.html#a2ff518eed09c7bf4de64ecf6dd57955c">MangoTree</a>, <a class="el" href="interfaceMapleTree.html#a599cd3aa95526b99633fa2354603af0d">MapleTree</a>, <a class="el" href="interfaceMirror.html#a9095e6f98502135c9952704f9a4d8d60">Mirror</a>, <a class="el" href="interfaceNormalPlant.html#a50698228b42a314e8d132fbed38a4766">NormalPlant</a>, <a class="el" href="interfaceNPC.html#a2d512aa66fa6c24d55ec113fc7e2f817">NPC</a>, <a class="el" href="interfaceOrangeTree.html#a5331206f0eee1926e3eec17beedb886b">OrangeTree</a>, <a class="el" href="interfacePassengerCar.html#ac7176f60e32561a4b5d321a87911d433">PassengerCar</a>, <a class="el" href="interfacePineTree.html#a8547e09eec28e8887307b6153e112c51">PineTree</a>, <a class="el" href="interfacePlant.html#acfe7cdc9d53bf9fb48dcfe403c437276">Plant</a>, <a class="el" href="interfaceScorpion.html#a99727fdf81e58b9df2cdfd3c0d8db930">Scorpion</a>, <a class="el" href="interfaceShark.html#a9d79fb36c26a2d1feb40214f742e3879">Shark</a>, <a class="el" href="interfaceSign.html#ac00dbc9ae3af3aac2a7c0c2a7b21b20c">Sign</a>, <a class="el" href="interfaceSnowSurfaceBlock.html#a694b8ce72b67acc91f983f80420c74e4">SnowSurfaceBlock</a>, <a class="el" href="interfaceStairs.html#aec5acd467e6e8881d3868cd080e8463a">Stairs</a>, <a class="el" href="interfaceSteamTrain.html#aee87e1e9656caa06fff52086a43fadeb">SteamTrain</a>, <a class="el" href="interfaceSurfaceBlock.html#a4b80907d703be7695e316ce4cf407c2c">SurfaceBlock</a>, <a class="el" href="interfaceTradingPost.html#a3fdab75968a4ffd71baeb77735abbf36">TradingPost</a>, <a class="el" href="interfaceTrainCar.html#abcf9116d8f3901c57e33273761389993">TrainCar</a>, <a class="el" href="interfaceTree.html#af5076a47bf2f18c2e22a08f68c0cb99c">Tree</a>, <a class="el" href="interfaceTulipPlant.html#aca79b66292fae45f3a1b267377bdaca2">TulipPlant</a>, <a class="el" href="interfaceVinePlant.html#aa6a822f2171501fb8caedba0b005ea1d">VinePlant</a>, <a class="el" href="interfaceWorkbench.html#a467fa89d0063b14bbefe7d44431763f0">Workbench</a>, and <a class="el" href="interfaceYak.html#a69997e8de8b30d7860609a7398529197">Yak</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceAppleTree.html#a6340f744cf54dd5d690c4500deea5954">AppleTree</a>, <a class="el" href="interfaceBed.html#ade7d8b8bc2070e97d95455b5308adb7a">Bed</a>, <a class="el" href="interfaceBlockhead.html#af7a3b3541ce5b1217729de8f2d698b1a">Blockhead</a>, <a class="el" href="interfaceBoat.html#acd71fc7122ee45b969ef9cf3f527e41b">Boat</a>, <a class="el" href="interfaceCactusTree.html#a8125cb3b0cbbd39afc8a2582c6b4ae55">CactusTree</a>, <a class="el" href="interfaceCaveTroll.html#a17c08515386d4bef4af0c0a61a88ca98">CaveTroll</a>, <a class="el" href="interfaceCherryTree.html#ac67ee27755308d6e30a04bc65f1de3f3">CherryTree</a>, <a class="el" href="interfaceChest.html#a5e7351168371dc54795d452fd704efd9">Chest</a>, <a class="el" href="interfaceClownFish.html#ad7a5c471cf32458479bf7fd1b4d7673a">ClownFish</a>, <a class="el" href="interfaceCoconutTree.html#a6b1d4ebc0b3b51b1479cce77d56713ee">CoconutTree</a>, <a class="el" href="interfaceCoffeeTree.html#a3e947375892f19f71b35a183c96c7edd">CoffeeTree</a>, <a class="el" href="interfaceColumn.html#a6805f518c6d840ae698b00c5334d09bc">Column</a>, <a class="el" href="interfaceDodo.html#ad5dee09c1808d3e642eee1f7e650fe26">Dodo</a>, <a class="el" href="interfaceDonkeyLike.html#a1cb42753c8472c0b2393f30eb4c5e0b3">DonkeyLike</a>, <a class="el" href="interfaceDropBear.html#a23ef9770721c399a6933d8663d3adc2e">DropBear</a>, <a class="el" href="interfaceEgg.html#a1c27489a08d19ee9458e27ba2677f3d6">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#ae118893eb517b49e07b86379634ec0c7">ElevatorMotor</a>, <a class="el" href="interfaceFireObject.html#a1f9fef50067d103b388980ec1be145b1">FireObject</a>, <a class="el" href="interfaceFreeBlock.html#a5131568c37316327615cf8f9cdaa9dae">FreeBlock</a>, <a class="el" href="interfaceFreightCar.html#a10f0de7b5ce013c7d6062d63ab1af1d4">FreightCar</a>, <a class="el" href="interfaceGatherBlock.html#afc2a73f731b3ee24cfad49dece53f2f5">GatherBlock</a>, <a class="el" href="interfaceGemTree.html#a1ce7d8d01d8ef0e0ad4503940ef89be4">GemTree</a>, <a class="el" href="interfaceHandCar.html#a9dea36b26e4997dd9ebbced00f36e1d1">HandCar</a>, <a class="el" href="interfaceInteractionObject.html#a4cda7b4e0d5a0fc9cf374fcdb6c63827">InteractionObject</a>, <a class="el" href="interfaceKelpPlant.html#a48da39e6f02fbc6430165dce55b2fb55">KelpPlant</a>, <a class="el" href="interfaceLimeTree.html#a5bad0f93ff6604c1c3915f9553d8fa98">LimeTree</a>, <a class="el" href="interfaceMangoTree.html#a2ff518eed09c7bf4de64ecf6dd57955c">MangoTree</a>, <a class="el" href="interfaceMapleTree.html#a599cd3aa95526b99633fa2354603af0d">MapleTree</a>, <a class="el" href="interfaceMirror.html#a9095e6f98502135c9952704f9a4d8d60">Mirror</a>, <a class="el" href="interfaceNormalPlant.html#a50698228b42a314e8d132fbed38a4766">NormalPlant</a>, <a class="el" href="interfaceNPC.html#a2d512aa66fa6c24d55ec113fc7e2f817">NPC</a>, <a class="el" href="interfaceOrangeTree.html#a5331206f0eee1926e3eec17beedb886b">OrangeTree</a>, <a class="el" href="interfacePassengerCar.html#ac7176f60e32561a4b5d321a87911d433">PassengerCar</a>, <a class="el" href="interfacePineTree.html#a8547e09eec28e8887307b6153e112c51">PineTree</a>, <a class="el" href="interfacePlant.html#acfe7cdc9d53bf9fb48dcfe403c437276">Plant</a>, <a class="el" href="interfaceScorpion.html#a99727fdf81e58b9df2cdfd3c0d8db930">Scorpion</a>, <a class="el" href="interfaceShark.html#a9d79fb36c26a2d1feb40214f742e3879">Shark</a>, <a class="el" href="interfaceSign.html#ac00dbc9ae3af3aac2a7c0c2a7b21b20c">Sign</a>, <a class="el" href="interfaceSnowSurfaceBlock.html#a694b8ce72b67acc91f983f80420c74e4">SnowSurfaceBlock</a>, <a class="el" href="interfaceStairs.html#aec5acd467e6e8881d3868cd080e8463a">Stairs</a>, <a class="el" href="interfaceSteamTrain.html#aee87e1e9656caa06fff52086a43fadeb">SteamTrain</a>, <a class="el" href="interfaceSurfaceBlock.html#a4b80907d703be7695e316ce4cf407c2c">SurfaceBlock</a>, <a class="el" href="interfaceTradingPost.html#a3fdab75968a4ffd71baeb77735abbf36">TradingPost</a>, <a class="el" href="interfaceTrainCar.html#abcf9116d8f3901c57e33273761389993">TrainCar</a>, <a class="el" href="interfaceTree.html#af5076a47bf2f18c2e22a08f68c0cb99c">Tree</a>, <a class="el" href="interfaceTulipPlant.html#aca79b66292fae45f3a1b267377bdaca2">TulipPlant</a>, <a class="el" href="interfaceVinePlant.html#aa6a822f2171501fb8caedba0b005ea1d">VinePlant</a>, <a class="el" href="interfaceWorkbench.html#a467fa89d0063b14bbefe7d44431763f0">Workbench</a>, and <a class="el" href="interfaceYak.html#a69997e8de8b30d7860609a7398529197">Yak</a>.</p>
 
 </div>
 </div>
@@ -1842,7 +1846,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#a2bab3d8d7aecf1b190610d981e6759df">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a66308167c75cd090bdf7c62ff458f42e">Plant</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#aee518d8e0bfb6ad5386767f0792c1066">Bed</a>, <a class="el" href="interfaceInteractionObject.html#a2bab3d8d7aecf1b190610d981e6759df">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a66308167c75cd090bdf7c62ff458f42e">Plant</a>.</p>
 
 </div>
 </div>
@@ -1860,7 +1864,7 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newPosition</td><td></td></tr>
@@ -1918,6 +1922,8 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
   </dd>
 </dl>
 
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a3ec2d56755ee7561441616b21909b908">Bed</a>.</p>
+
 </div>
 </div>
 <a id="a346edb1ddf8f062c8b3068d484ce08b0" name="a346edb1ddf8f062c8b3068d484ce08b0"></a>
@@ -1941,6 +1947,8 @@ BOOL&#160;</td><td class="memItemRight" valign="bottom"><b>updateNeedsToBeSent</
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented in <a class="el" href="interfaceBed.html#aa2b52994c6f767f3c97c3ba5bcbf85bb">Bed</a>.</p>
 
 </div>
 </div>

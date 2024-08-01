@@ -6,6 +6,7 @@ var hierarchy =
       [ "SteamTrain", "interfaceSteamTrain.html", null ],
       [ "Workbench", "interfaceWorkbench.html", null ]
     ] ],
+    [ "BedNetData", "structBedNetData.html", null ],
     [ "<BHMatchDelegate>", null, [
       [ "BHNetNode", "interfaceBHNetNode.html", [
         [ "BHClient", "interfaceBHClient.html", null ],

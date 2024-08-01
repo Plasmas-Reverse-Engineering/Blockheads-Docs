@@ -22,7 +22,7 @@ var searchData=
   ['cornplant_19',['CornPlant',['../interfaceCornPlant.html',1,'']]],
   ['craftableitem_20',['CraftableItem',['../structCraftableItem.html',1,'']]],
   ['craftableitemobject_21',['CraftableItemObject',['../interfaceCraftableItemObject.html',1,'']]],
-  ['creationnetdataforclient_3a_22',['creationNetDataForClient:',['../interfaceDynamicObject.html#aeb3bab02fe9d5227286dc5410368144e',1,'DynamicObject::creationNetDataForClient:()'],['../interfaceInteractionObject.html#a3325dff1b3a83af6bf21e4bd01ccd79f',1,'InteractionObject::creationNetDataForClient:()'],['../interfacePlant.html#ab5749ecb24ff05e820adea04941f7acf',1,'Plant::creationNetDataForClient:()']]],
+  ['creationnetdataforclient_3a_22',['creationNetDataForClient:',['../interfaceBed.html#a906fab6b3e477e61b080ddb689023dbc',1,'Bed::creationNetDataForClient:()'],['../interfaceDynamicObject.html#aeb3bab02fe9d5227286dc5410368144e',1,'DynamicObject::creationNetDataForClient:()'],['../interfaceInteractionObject.html#a3325dff1b3a83af6bf21e4bd01ccd79f',1,'InteractionObject::creationNetDataForClient:()'],['../interfacePlant.html#ab5749ecb24ff05e820adea04941f7acf',1,'Plant::creationNetDataForClient:()']]],
   ['crystalmanager_23',['CrystalManager',['../interfaceCrystalManager.html',1,'']]],
   ['customrules_24',['CustomRules',['../structCustomRules.html',1,'']]]
 ];

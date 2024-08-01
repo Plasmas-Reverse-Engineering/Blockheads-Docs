@@ -6,6 +6,7 @@ var annotated_dup =
     [ "AppleTree", "interfaceAppleTree.html", "interfaceAppleTree" ],
     [ "ArtificialLight", "interfaceArtificialLight.html", "interfaceArtificialLight" ],
     [ "Bed", "interfaceBed.html", "interfaceBed" ],
+    [ "BedNetData", "structBedNetData.html", null ],
     [ "BHClient", "interfaceBHClient.html", null ],
     [ "BHMatch", "interfaceBHMatch.html", null ],
     [ "BHNetNode", "interfaceBHNetNode.html", null ],

@@ -251,6 +251,7 @@ Instance Methods</h2></td></tr>
 <tr class="memitem:a6ad6e53294c84b43d0b041124a1bcf19" id="r_a6ad6e53294c84b43d0b041124a1bcf19"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfaceDynamicObject.html#a6ad6e53294c84b43d0b041124a1bcf19">needsNetDataToBeSent</a></td></tr>
 <tr class="separator:a6ad6e53294c84b43d0b041124a1bcf19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab76aa06f6c998c66a887cee3138c00ac" id="r_ab76aa06f6c998c66a887cee3138c00ac"><td class="memItemLeft" align="right" valign="top">(int)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#ab76aa06f6c998c66a887cee3138c00ac">objectType</a></td></tr>
+<tr class="memdesc:ab76aa06f6c998c66a887cee3138c00ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">This returns the object type of this <a class="el" href="interfaceDynamicObject.html" title="DynamicObject superclass.">DynamicObject</a>.  <br /></td></tr>
 <tr class="separator:ab76aa06f6c998c66a887cee3138c00ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac7413bf7565239e0bcaaa971b415e7e2" id="r_ac7413bf7565239e0bcaaa971b415e7e2"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="interfaceDynamicObject.html#ac7413bf7565239e0bcaaa971b415e7e2">occupiesBackgroundContents</a></td></tr>
 <tr class="memdesc:ac7413bf7565239e0bcaaa971b415e7e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if this object occupies background contents.  <br /></td></tr>
@@ -850,7 +851,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">buffer</td><td></td></tr>
@@ -962,7 +963,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">blockhead</td><td></td></tr>
@@ -1017,7 +1018,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#a3325dff1b3a83af6bf21e4bd01ccd79f">InteractionObject</a>, and <a class="el" href="interfacePlant.html#ab5749ecb24ff05e820adea04941f7acf">Plant</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a906fab6b3e477e61b080ddb689023dbc">Bed</a>, <a class="el" href="interfaceInteractionObject.html#a3325dff1b3a83af6bf21e4bd01ccd79f">InteractionObject</a>, and <a class="el" href="interfacePlant.html#ab5749ecb24ff05e820adea04941f7acf">Plant</a>.</p>
 
 </div>
 </div>
@@ -1118,6 +1119,8 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
   </dd>
 </dl>
 
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a6aa2b4415d1efc49c8b21617faba6d34">Bed</a>.</p>
+
 </div>
 </div>
 <a id="a5f45da0f01c17b8a465cba57d9ca52cb" name="a5f45da0f01c17b8a465cba57d9ca52cb"></a>
@@ -1182,7 +1185,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 </div>
@@ -1204,7 +1207,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
 <dl class="section note"><dt>Note</dt><dd>The use of this function is currently unknown.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceBed.html#a781faa835736e32fb154bc414ae0972a">Bed</a>, <a class="el" href="interfaceChest.html#a7c9d4c1faa263616ef912eff06cb7b2d">Chest</a>, <a class="el" href="interfaceColumn.html#ad34448f7cfec9e526ee60bd24d4b5c47">Column</a>, <a class="el" href="interfaceDoor.html#ac0ddc89df67cc580a178648b47e02e8d">Door</a>, <a class="el" href="interfaceEgg.html#ab2ea427095815f4a9520055c7c811852">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a70f56079adcba3961c00d23aa89f4f52">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#ac4471371ddf4c5dbf29cd30ca7c44160">ElevatorShaft</a>, <a class="el" href="interfaceLadder.html#a477e4ea0e879d0827441edf10aef5646">Ladder</a>, <a class="el" href="interfaceMirror.html#a3ad4d3e55ca26b93cd1e1b58d3d9b133">Mirror</a>, <a class="el" href="interfacePainting.html#a0ab76f0f47186ad335257f1755495996">Painting</a>, <a class="el" href="interfaceRail.html#a489f7aeea5fb83dcdbc2f7145794b041">Rail</a>, <a class="el" href="interfaceSign.html#a279fcd66f1220b20f8d8d4033dc534ee">Sign</a>, <a class="el" href="interfaceStairs.html#a6270a3abe84d4e6569fcb5db97f1a4de">Stairs</a>, <a class="el" href="interfaceTorch.html#a20bb93421375a58d38afd1c1462ee5fb">Torch</a>, <a class="el" href="interfaceTradePortal.html#a441e81528159a335e6f1278028e30d5a">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#aaf6441652d32400d185c479fd807e6df">TradingPost</a>, <a class="el" href="interfaceTrainStation.html#a961b2fba3af6ff1a3e2bc005e4613835">TrainStation</a>, <a class="el" href="interfaceWire.html#a61eb28e7e672eb3315a3c30955cf8221">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a2a4076678de31e2a3d5463e612fef372">Workbench</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a30c0cf14c7e1113d4c4f2b2941ee3b10">Bed</a>, <a class="el" href="interfaceChest.html#a7c9d4c1faa263616ef912eff06cb7b2d">Chest</a>, <a class="el" href="interfaceColumn.html#ad34448f7cfec9e526ee60bd24d4b5c47">Column</a>, <a class="el" href="interfaceDoor.html#ac0ddc89df67cc580a178648b47e02e8d">Door</a>, <a class="el" href="interfaceEgg.html#ab2ea427095815f4a9520055c7c811852">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a70f56079adcba3961c00d23aa89f4f52">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#ac4471371ddf4c5dbf29cd30ca7c44160">ElevatorShaft</a>, <a class="el" href="interfaceLadder.html#a477e4ea0e879d0827441edf10aef5646">Ladder</a>, <a class="el" href="interfaceMirror.html#a3ad4d3e55ca26b93cd1e1b58d3d9b133">Mirror</a>, <a class="el" href="interfacePainting.html#a0ab76f0f47186ad335257f1755495996">Painting</a>, <a class="el" href="interfaceRail.html#a489f7aeea5fb83dcdbc2f7145794b041">Rail</a>, <a class="el" href="interfaceSign.html#a279fcd66f1220b20f8d8d4033dc534ee">Sign</a>, <a class="el" href="interfaceStairs.html#a6270a3abe84d4e6569fcb5db97f1a4de">Stairs</a>, <a class="el" href="interfaceTorch.html#a20bb93421375a58d38afd1c1462ee5fb">Torch</a>, <a class="el" href="interfaceTradePortal.html#a441e81528159a335e6f1278028e30d5a">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#aaf6441652d32400d185c479fd807e6df">TradingPost</a>, <a class="el" href="interfaceTrainStation.html#a961b2fba3af6ff1a3e2bc005e4613835">TrainStation</a>, <a class="el" href="interfaceWire.html#a61eb28e7e672eb3315a3c30955cf8221">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a2a4076678de31e2a3d5463e612fef372">Workbench</a>.</p>
 
 </div>
 </div>
@@ -1225,7 +1228,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
 <dl class="section note"><dt>Note</dt><dd>The use of this function is currently unknown.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceBed.html#abfeb69024af902c5672e66a8932eea8b">Bed</a>, <a class="el" href="interfaceChest.html#aa4e09b8d2d909d03faaa0d082beae09e">Chest</a>, <a class="el" href="interfaceColumn.html#ad08b9f80deadc7dbf7ae106b64f4d485">Column</a>, <a class="el" href="interfaceDoor.html#a4729b7ca961d325b31ea23290726d30f">Door</a>, <a class="el" href="interfaceEgg.html#a9ac450a4e1243a23d580f2cf99b13ae0">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a6b566ace8723f5c51735041a396e8774">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#a8b1e231311474ee07eb28fd19331e433">ElevatorShaft</a>, <a class="el" href="interfaceLadder.html#ae58d4aed2a7299bdafa1e9b082cb544b">Ladder</a>, <a class="el" href="interfaceMirror.html#a813878a92aac49abf27223d7a73a3ed6">Mirror</a>, <a class="el" href="interfacePainting.html#a26bda35e195d86efff16b2e67c06248c">Painting</a>, <a class="el" href="interfaceRail.html#a56ba0c7c847c515896ea78ca41ee7e00">Rail</a>, <a class="el" href="interfaceSign.html#a179e1ffe330816f82bd28471cd8f9b34">Sign</a>, <a class="el" href="interfaceStairs.html#a50110114ba360b5bb0df2d26f888e53d">Stairs</a>, <a class="el" href="interfaceTorch.html#a6826ce3f8235ea2b32d4d68464a94690">Torch</a>, <a class="el" href="interfaceTradePortal.html#abe9d3e5981da6875f56b8611297b2745">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#ad92864d5fc27d79f60e463573f4399eb">TradingPost</a>, <a class="el" href="interfaceTrainStation.html#aebbf335b6bade8cf2e32cad620f45b58">TrainStation</a>, <a class="el" href="interfaceWire.html#a6bf873bc69bbadefa55edf66cd6cb33b">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a07749c0e9ff6c510ba339b0c8fe23957">Workbench</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a418f87c241102439fe31728001c2688f">Bed</a>, <a class="el" href="interfaceChest.html#aa4e09b8d2d909d03faaa0d082beae09e">Chest</a>, <a class="el" href="interfaceColumn.html#ad08b9f80deadc7dbf7ae106b64f4d485">Column</a>, <a class="el" href="interfaceDoor.html#a4729b7ca961d325b31ea23290726d30f">Door</a>, <a class="el" href="interfaceEgg.html#a9ac450a4e1243a23d580f2cf99b13ae0">Egg</a>, <a class="el" href="interfaceElevatorMotor.html#a6b566ace8723f5c51735041a396e8774">ElevatorMotor</a>, <a class="el" href="interfaceElevatorShaft.html#a8b1e231311474ee07eb28fd19331e433">ElevatorShaft</a>, <a class="el" href="interfaceLadder.html#ae58d4aed2a7299bdafa1e9b082cb544b">Ladder</a>, <a class="el" href="interfaceMirror.html#a813878a92aac49abf27223d7a73a3ed6">Mirror</a>, <a class="el" href="interfacePainting.html#a26bda35e195d86efff16b2e67c06248c">Painting</a>, <a class="el" href="interfaceRail.html#a56ba0c7c847c515896ea78ca41ee7e00">Rail</a>, <a class="el" href="interfaceSign.html#a179e1ffe330816f82bd28471cd8f9b34">Sign</a>, <a class="el" href="interfaceStairs.html#a50110114ba360b5bb0df2d26f888e53d">Stairs</a>, <a class="el" href="interfaceTorch.html#a6826ce3f8235ea2b32d4d68464a94690">Torch</a>, <a class="el" href="interfaceTradePortal.html#abe9d3e5981da6875f56b8611297b2745">TradePortal</a>, <a class="el" href="interfaceTradingPost.html#ad92864d5fc27d79f60e463573f4399eb">TradingPost</a>, <a class="el" href="interfaceTrainStation.html#aebbf335b6bade8cf2e32cad620f45b58">TrainStation</a>, <a class="el" href="interfaceWire.html#a6bf873bc69bbadefa55edf66cd6cb33b">Wire</a>, and <a class="el" href="interfaceWorkbench.html#a07749c0e9ff6c510ba339b0c8fe23957">Workbench</a>.</p>
 
 </div>
 </div>
@@ -1307,7 +1310,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Implements <a class="el" href="interfaceTrainCar.html#a6e1926a418c5d059e9c110815734e4cc">TrainCar</a>.</p>
@@ -1332,7 +1335,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">wasSaveLoad</td><td></td></tr>
@@ -1372,7 +1375,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000026">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">world_</td><td></td></tr>
@@ -1472,7 +1475,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000027">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">world_</td><td></td></tr>
@@ -1517,7 +1520,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">world_</td><td></td></tr>
@@ -1529,7 +1532,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#ad9e58a3ef2657eadbd3497c1591abc98">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a04b0789477d7c4f9bf62bd453d6109e2">Plant</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a8aeb1925ade233fa6740e5822bf49f7a">Bed</a>, <a class="el" href="interfaceInteractionObject.html#ad9e58a3ef2657eadbd3497c1591abc98">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a04b0789477d7c4f9bf62bd453d6109e2">Plant</a>.</p>
 
 </div>
 </div>
@@ -1594,7 +1597,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">world_</td><td></td></tr>
@@ -1606,7 +1609,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#a0b1fb221b5de52b1ac5db646dc388292">InteractionObject</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a583cfb04562707a36b1537d25ef71671">Bed</a>, and <a class="el" href="interfaceInteractionObject.html#a0b1fb221b5de52b1ac5db646dc388292">InteractionObject</a>.</p>
 
 </div>
 </div>
@@ -1836,8 +1839,9 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section note"><dt>Note</dt><dd>The use of this function is currently unknown.</dd></dl>
-<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>This returns the object type of this <a class="el" href="interfaceDynamicObject.html" title="DynamicObject superclass.">DynamicObject</a>. </p>
+<dl class="section return"><dt>Returns</dt><dd>DynamicObjectType of this <a class="el" href="interfaceDynamicObject.html" title="DynamicObject superclass.">DynamicObject</a> </dd></dl>
 
 <p>Implements <a class="el" href="interfaceTrainCar.html#a1a93736c2b2a6ba4e3485a0afb324e73">TrainCar</a>.</p>
 
@@ -1942,7 +1946,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">netData</td><td></td></tr>
@@ -1966,7 +1970,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">netData</td><td></td></tr>
@@ -1974,7 +1978,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
   </dd>
 </dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#a2d4bd951c8da17b1d65ffcd2d25432d8">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a610ebd8c35aacb80c3a87f7e1c000ca5">Plant</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#ad95fc12cf1e6f088e284391161d98bec">Bed</a>, <a class="el" href="interfaceInteractionObject.html#a2d4bd951c8da17b1d65ffcd2d25432d8">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a610ebd8c35aacb80c3a87f7e1c000ca5">Plant</a>.</p>
 
 </div>
 </div>
@@ -2011,7 +2015,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo</a></b></dt><dd>Implement. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo</a></b></dt><dd>Implement. </dd></dl>
 
 <p>Reimplemented from <a class="el" href="interfaceDynamicObject.html#aa0969a9285f2b4c1e6ce73f870627488">DynamicObject</a>.</p>
 
@@ -2031,7 +2035,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000006">Todo</a></b></dt><dd>Implement</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo</a></b></dt><dd>Implement</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
 <p>Implements <a class="el" href="interfaceTrainCar.html#ab87eec863921a3dfd71fec8367752c61">TrainCar</a>.</p>
@@ -2115,7 +2119,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">floatPos_</td><td></td></tr>
@@ -2445,7 +2449,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
 </dl>
 <dl class="section return"><dt>Returns</dt><dd></dd></dl>
 
-<p>Reimplemented in <a class="el" href="interfaceInteractionObject.html#a2bab3d8d7aecf1b190610d981e6759df">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a66308167c75cd090bdf7c62ff458f42e">Plant</a>.</p>
+<p>Reimplemented in <a class="el" href="interfaceBed.html#aee518d8e0bfb6ad5386767f0792c1066">Bed</a>, <a class="el" href="interfaceInteractionObject.html#a2bab3d8d7aecf1b190610d981e6759df">InteractionObject</a>, and <a class="el" href="interfacePlant.html#a66308167c75cd090bdf7c62ff458f42e">Plant</a>.</p>
 
 </div>
 </div>
@@ -2482,7 +2486,7 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo</a></b></dt><dd>Implement.</dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo</a></b></dt><dd>Implement.</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">newPosition</td><td></td></tr>
@@ -2542,6 +2546,8 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
   </dd>
 </dl>
 
+<p>Reimplemented in <a class="el" href="interfaceBed.html#a3ec2d56755ee7561441616b21909b908">Bed</a>.</p>
+
 </div>
 </div>
 <a id="a346edb1ddf8f062c8b3068d484ce08b0" name="a346edb1ddf8f062c8b3068d484ce08b0"></a>
@@ -2565,6 +2571,8 @@ Class&#160;</td><td class="memItemRight" valign="bottom"><b>superclass</b></td><
   </table>
   </dd>
 </dl>
+
+<p>Reimplemented in <a class="el" href="interfaceBed.html#aa2b52994c6f767f3c97c3ba5bcbf85bb">Bed</a>.</p>
 
 </div>
 </div>
