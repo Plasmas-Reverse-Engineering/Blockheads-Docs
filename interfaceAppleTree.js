@@ -11,6 +11,7 @@ var interfaceAppleTree =
     [ "addFallenFruits", "interfaceAppleTree.html#a26484aca061c216aac42d1718fdf3033", null ],
     [ "addForegroundDrawQuadData:fromIndex:forMacroPos:", "interfaceAppleTree.html#a3af208d10e16ce5233fae1b518a4ae23", null ],
     [ "addLightGlowQuadData:fromIndex:", "interfaceAppleTree.html#a435e54ec85c42cc5edb0cb6c69886030", null ],
+    [ "availableFood", "interfaceAppleTree.html#a77b7a803baf56dcb80861c7858c7b4ca", null ],
     [ "blockheadsLoaded", "interfaceAppleTree.html#a891a2ada220c04d690bb154101cc8bc9", null ],
     [ "blockheadUnloaded:", "interfaceAppleTree.html#a1a4a24ec1cf69c71c94cd97aa90941af", null ],
     [ "canBeRemovedByBlockhead:", "interfaceAppleTree.html#a76556cdfadc0928c5392106a8aa1d43c", null ],
@@ -39,6 +40,7 @@ var interfaceAppleTree =
     [ "initWithWorld:dynamicWorld:atPosition:cache:type:saveDict:placedByClient:", "interfaceAppleTree.html#a84c63e2253528f76bb8b672e256d8214", null ],
     [ "initWithWorld:dynamicWorld:cache:netData:", "interfaceAppleTree.html#a488126002646c39ca5fcdd17b49c6045", null ],
     [ "initWithWorld:dynamicWorld:saveDict:cache:", "interfaceAppleTree.html#a339e15422ba13a4819af2e929ecd5743", null ],
+    [ "initWithWorld:dynamicWorld:saveDict:cache:treeDensityNoiseFunction:seasonOffsetNoiseFunction:", "interfaceAppleTree.html#a655f9c0559671c8f40c2e79d1633836e", null ],
     [ "initWithWorld:dynamicWorld:saveDict:cache:treeDensityNoiseFunction:seasonOffsetNoiseFunction:", "interfaceAppleTree.html#a848f7709238469848380b3411f8d59ce", null ],
     [ "isDownlight", "interfaceAppleTree.html#a7881fa51a104b1633a9bb15e6ec86fb7", null ],
     [ "isGrowingInCompost", "interfaceAppleTree.html#ade8a07bda25d4054e6083088b01e3839", null ],
@@ -65,6 +67,7 @@ var interfaceAppleTree =
     [ "removeFromMacroBlock", "interfaceAppleTree.html#a2ba4d3632c484655d37c6f90b72795e2", null ],
     [ "renderPos", "interfaceAppleTree.html#aa353472723cf9bd5705fd721d95a5b55", null ],
     [ "requiresPhysicalBlock", "interfaceAppleTree.html#a43cefe05044c76ec405c9c940b783280", null ],
+    [ "setAvailableFood:", "interfaceAppleTree.html#ad27374be12de0eedb94d297131f8340f", null ],
     [ "setFloatPosAndUpdatePosition:", "interfaceAppleTree.html#ae61d2492eded03da66bb999e153c47e3", null ],
     [ "shouldAddFallenFruits", "interfaceAppleTree.html#ab65468031e286d2db4b9742af712b397", null ],
     [ "shouldAddToMacroBlock", "interfaceAppleTree.html#a5bcfcc92756a894a8bf6bbd68b963015", null ],
@@ -85,7 +88,6 @@ var interfaceAppleTree =
     [ "updateNetDataForClient:", "interfaceAppleTree.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceAppleTree.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceAppleTree.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceAppleTree.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldChanged:", "interfaceAppleTree.html#a699c1b03aa6d53b5859a30a713f6dff0", null ],
+    [ "worldChanged:", "interfaceAppleTree.html#a6b9936012e733406d21f9ecdb711c165", null ],
     [ "worldContentsChanged:", "interfaceAppleTree.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

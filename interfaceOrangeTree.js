@@ -85,7 +85,6 @@ var interfaceOrangeTree =
     [ "updateNetDataForClient:", "interfaceOrangeTree.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceOrangeTree.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceOrangeTree.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceOrangeTree.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldChanged:", "interfaceOrangeTree.html#a699c1b03aa6d53b5859a30a713f6dff0", null ],
+    [ "worldChanged:", "interfaceOrangeTree.html#a6b9936012e733406d21f9ecdb711c165", null ],
     [ "worldContentsChanged:", "interfaceOrangeTree.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

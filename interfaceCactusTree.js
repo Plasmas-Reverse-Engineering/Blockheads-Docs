@@ -39,6 +39,7 @@ var interfaceCactusTree =
     [ "initWithWorld:dynamicWorld:atPosition:cache:type:saveDict:placedByClient:", "interfaceCactusTree.html#a84c63e2253528f76bb8b672e256d8214", null ],
     [ "initWithWorld:dynamicWorld:cache:netData:", "interfaceCactusTree.html#a488126002646c39ca5fcdd17b49c6045", null ],
     [ "initWithWorld:dynamicWorld:saveDict:cache:", "interfaceCactusTree.html#a339e15422ba13a4819af2e929ecd5743", null ],
+    [ "initWithWorld:dynamicWorld:saveDict:cache:treeDensityNoiseFunction:seasonOffsetNoiseFunction:", "interfaceCactusTree.html#a8461d0ff3e2fa81def0b0d78bab5a8a0", null ],
     [ "initWithWorld:dynamicWorld:saveDict:cache:treeDensityNoiseFunction:seasonOffsetNoiseFunction:", "interfaceCactusTree.html#a848f7709238469848380b3411f8d59ce", null ],
     [ "isDownlight", "interfaceCactusTree.html#a7881fa51a104b1633a9bb15e6ec86fb7", null ],
     [ "isGrowingInCompost", "interfaceCactusTree.html#ade8a07bda25d4054e6083088b01e3839", null ],
@@ -85,7 +86,6 @@ var interfaceCactusTree =
     [ "updateNetDataForClient:", "interfaceCactusTree.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceCactusTree.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceCactusTree.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceCactusTree.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldChanged:", "interfaceCactusTree.html#a699c1b03aa6d53b5859a30a713f6dff0", null ],
+    [ "worldChanged:", "interfaceCactusTree.html#a6b9936012e733406d21f9ecdb711c165", null ],
     [ "worldContentsChanged:", "interfaceCactusTree.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

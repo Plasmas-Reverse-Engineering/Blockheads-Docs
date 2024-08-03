@@ -11,5 +11,6 @@ var searchData=
   ['adddrawquaddata_3afromindex_3aformacropos_3a_8',['addDrawQuadData:fromIndex:forMacroPos:',['../interfaceDynamicObject.html#ae613918bc8d92d1021660557ac5def74',1,'DynamicObject::addDrawQuadData:fromIndex:forMacroPos:()'],['../interfaceNormalPlant.html#aff40d06e2485bdcab27e1fbb8364d5c3',1,'NormalPlant::addDrawQuadData:fromIndex:forMacroPos:()']]],
   ['addfallenfruits_9',['addFallenFruits',['../interfaceTree.html#a26484aca061c216aac42d1718fdf3033',1,'Tree']]],
   ['addforegrounddrawquaddata_3afromindex_3aformacropos_3a_10',['addForegroundDrawQuadData:fromIndex:forMacroPos:',['../interfaceDynamicObject.html#a3af208d10e16ce5233fae1b518a4ae23',1,'DynamicObject']]],
-  ['addlightglowquaddata_3afromindex_3a_11',['addLightGlowQuadData:fromIndex:',['../interfaceDynamicObject.html#a435e54ec85c42cc5edb0cb6c69886030',1,'DynamicObject']]]
+  ['addlightglowquaddata_3afromindex_3a_11',['addLightGlowQuadData:fromIndex:',['../interfaceDynamicObject.html#a435e54ec85c42cc5edb0cb6c69886030',1,'DynamicObject']]],
+  ['availablefood_12',['availableFood',['../interfaceAppleTree.html#a77b7a803baf56dcb80861c7858c7b4ca',1,'AppleTree']]]
 ];

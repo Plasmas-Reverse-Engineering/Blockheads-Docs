@@ -35,10 +35,12 @@ var interfaceCherryTree =
     [ "initDerivedStuff:loadPhysicalBlockIfNeeded:", "interfaceCherryTree.html#ad0f0701dc82ccb9ddd3f72e50548cf8d", null ],
     [ "initStaticTreeWithWorld:dynamicWorld:atPosition:cache:treeDensityNoiseFunction:seasonOffsetNoiseFunction:", "interfaceCherryTree.html#a3178993add1776a1e0499cd9f186ccc6", null ],
     [ "initWithWorld:dynamicWorld:atPosition:cache:", "interfaceCherryTree.html#a83de4618599142eaadca1a1177893fd5", null ],
+    [ "initWithWorld:dynamicWorld:atPosition:cache:maxHeight:growthRate:treeDensityNoiseFunction:seasonOffsetNoiseFunction:adultTree:adultMaxAge:", "interfaceCherryTree.html#a873a5e913d8f5c30750c4c369013dbd2", null ],
     [ "initWithWorld:dynamicWorld:atPosition:cache:maxHeight:growthRate:treeDensityNoiseFunction:seasonOffsetNoiseFunction:adultTree:adultMaxAge:", "interfaceCherryTree.html#aec71ac81997b2e69f28eba13b737bda5", null ],
     [ "initWithWorld:dynamicWorld:atPosition:cache:type:saveDict:placedByClient:", "interfaceCherryTree.html#a84c63e2253528f76bb8b672e256d8214", null ],
     [ "initWithWorld:dynamicWorld:cache:netData:", "interfaceCherryTree.html#a488126002646c39ca5fcdd17b49c6045", null ],
     [ "initWithWorld:dynamicWorld:saveDict:cache:", "interfaceCherryTree.html#a339e15422ba13a4819af2e929ecd5743", null ],
+    [ "initWithWorld:dynamicWorld:saveDict:cache:treeDensityNoiseFunction:seasonOffsetNoiseFunction:", "interfaceCherryTree.html#a13d0cc9e0056b41514935311d98c3577", null ],
     [ "initWithWorld:dynamicWorld:saveDict:cache:treeDensityNoiseFunction:seasonOffsetNoiseFunction:", "interfaceCherryTree.html#a848f7709238469848380b3411f8d59ce", null ],
     [ "isDownlight", "interfaceCherryTree.html#a7881fa51a104b1633a9bb15e6ec86fb7", null ],
     [ "isGrowingInCompost", "interfaceCherryTree.html#ade8a07bda25d4054e6083088b01e3839", null ],
@@ -85,7 +87,6 @@ var interfaceCherryTree =
     [ "updateNetDataForClient:", "interfaceCherryTree.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceCherryTree.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceCherryTree.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceCherryTree.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldChanged:", "interfaceCherryTree.html#a699c1b03aa6d53b5859a30a713f6dff0", null ],
+    [ "worldChanged:", "interfaceCherryTree.html#a6b9936012e733406d21f9ecdb711c165", null ],
     [ "worldContentsChanged:", "interfaceCherryTree.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

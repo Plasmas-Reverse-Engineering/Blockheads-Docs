@@ -14,5 +14,6 @@ var searchData=
   ['addforegrounddrawquaddata_3afromindex_3aformacropos_3a_11',['addForegroundDrawQuadData:fromIndex:forMacroPos:',['../interfaceDynamicObject.html#a3af208d10e16ce5233fae1b518a4ae23',1,'DynamicObject']]],
   ['addlightglowquaddata_3afromindex_3a_12',['addLightGlowQuadData:fromIndex:',['../interfaceDynamicObject.html#a435e54ec85c42cc5edb0cb6c69886030',1,'DynamicObject']]],
   ['appletree_13',['AppleTree',['../interfaceAppleTree.html',1,'']]],
-  ['artificiallight_14',['ArtificialLight',['../interfaceArtificialLight.html',1,'']]]
+  ['artificiallight_14',['ArtificialLight',['../interfaceArtificialLight.html',1,'']]],
+  ['availablefood_15',['availableFood',['../interfaceAppleTree.html#a77b7a803baf56dcb80861c7858c7b4ca',1,'AppleTree']]]
 ];
