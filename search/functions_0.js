@@ -5,7 +5,7 @@ var searchData=
   ['addcylinderdata_3afromindex_3a_2',['addCylinderData:fromIndex:',['../interfaceDynamicObject.html#ad0b5941f513b2df1fe990e54c8bafbc2',1,'DynamicObject']]],
   ['addcylinderdatatrans_3afromindex_3a_3',['addCylinderDataTrans:fromIndex:',['../interfaceDynamicObject.html#a61820643bb3a77a05a98c971c48202ea',1,'DynamicObject']]],
   ['adddodoeggdrawquaddata_3afromindex_3a_4',['addDodoEggDrawQuadData:fromIndex:',['../interfaceDynamicObject.html#abc421b19b0267558ddfd51b905009fdf',1,'DynamicObject']]],
-  ['adddrawcubedata_3afromindex_3a_5',['addDrawCubeData:fromIndex:',['../interfaceDynamicObject.html#af5c59f55cab9709501693ab62b206c1d',1,'DynamicObject']]],
+  ['adddrawcubedata_3afromindex_3a_5',['addDrawCubeData:fromIndex:',['../interfaceDynamicObject.html#af5c59f55cab9709501693ab62b206c1d',1,'DynamicObject::addDrawCubeData:fromIndex:()'],['../interfaceWire.html#aeabbab8e8ea754263d3a8a3400265e2d',1,'Wire::addDrawCubeData:fromIndex:()']]],
   ['adddrawcubedatatrans_3afromindex_3a_6',['addDrawCubeDataTrans:fromIndex:',['../interfaceDynamicObject.html#aefc529bae825c8bd1e37e72420c33278',1,'DynamicObject']]],
   ['adddrawitemquaddata_3afromindex_3a_7',['addDrawItemQuadData:fromIndex:',['../interfaceDynamicObject.html#af8fc2d3be6b237609acd87c462c17f4f',1,'DynamicObject']]],
   ['adddrawquaddata_3afromindex_3aformacropos_3a_8',['addDrawQuadData:fromIndex:forMacroPos:',['../interfaceDynamicObject.html#ae613918bc8d92d1021660557ac5def74',1,'DynamicObject::addDrawQuadData:fromIndex:forMacroPos:()'],['../interfaceNormalPlant.html#aff40d06e2485bdcab27e1fbb8364d5c3',1,'NormalPlant::addDrawQuadData:fromIndex:forMacroPos:()']]],

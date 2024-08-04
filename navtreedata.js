@@ -63,7 +63,7 @@ var NAVTREEINDEX =
 "interfaceTradePortal.html#a47a773c0fbf75dd572d52929fb1e9ef2",
 "interfaceTrainStation.html#a9ca5fa46edc9312e45e727cda18cf1db",
 "interfaceVinePlant.html#aefc529bae825c8bd1e37e72420c33278",
-"interfaceWorkbench.html#ac5cb0538b989533553f1b149dbfe32e4"
+"interfaceWorkbench.html#aba4c4786273f3750d91ac9e053ba3792"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -210,7 +210,9 @@ var hierarchy =
     [ "Vector< Projectile *, std::__1::allocator< Projectile * > >", "classVector.html", null ],
     [ "Vector< unsigned short, std::__1::allocator< unsigned short > >", "classVector.html", null ],
     [ "Vector< Vector2, std::__1::allocator< Vector2 > >", "classVector.html", null ],
+    [ "WindowCreationNetData", "structWindowCreationNetData.html", null ],
     [ "WindowInfo", "structWindowInfo.html", null ],
+    [ "WireCreationNetData", "structWireCreationNetData.html", null ],
     [ "<WorldDelegate>", null, [
       [ "GameController", "interfaceGameController.html", null ]
     ] ],
