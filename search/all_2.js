@@ -16,5 +16,6 @@ var searchData=
   ['blockheadstate_13',['BlockheadState',['../structBlockheadState.html',1,'']]],
   ['blockheadunloaded_3a_14',['blockheadUnloaded:',['../interfaceDynamicObject.html#a1a4a24ec1cf69c71c94cd97aa90941af',1,'DynamicObject::blockheadUnloaded:()'],['../interfaceInteractionObject.html#a8afa8f185a11fcf2276f3127c1884907',1,'InteractionObject::blockheadUnloaded:(Blockhead *blockhead)']]],
   ['blockheadwouldliketotakeownership_3awithsavedict_3a_15',['blockheadWouldLikeToTakeOwnership:withSaveDict:',['../interfaceInteractionObject.html#aa37268f47b8e5fa29fecf27cd6a31a37',1,'InteractionObject']]],
-  ['boat_16',['Boat',['../interfaceBoat.html',1,'']]]
+  ['boat_16',['Boat',['../interfaceBoat.html',1,'']]],
+  ['bushcontentstype_17',['bushContentsType',['../interfaceGemTree.html#a2212268561d79e394bc9326a0fbc4574',1,'GemTree']]]
 ];
