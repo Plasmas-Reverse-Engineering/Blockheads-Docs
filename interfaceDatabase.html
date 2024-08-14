@@ -107,6 +107,11 @@ $(function(){initNavTree('interfaceDatabase.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">Database Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><a class="el" href="interfaceDatabase.html" title="Database Class, interface for LMDB.">Database</a> Class, interface for LMDB.  
+ <a href="#details">More...</a></p>
+
+<p><code>#include &lt;Database.h&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Database:</div>
 <div class="dyncontent">
@@ -116,45 +121,46 @@ Inheritance diagram for Database:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Instance Methods</h2></td></tr>
-<tr class="memitem:a640d9dda030c0c7a69a6149bff6fd368" id="r_a640d9dda030c0c7a69a6149bff6fd368"><td class="memItemLeft" align="right" valign="top"><a id="a640d9dda030c0c7a69a6149bff6fd368" name="a640d9dda030c0c7a69a6149bff6fd368"></a>
-(id)&#160;</td><td class="memItemRight" valign="bottom">- <b>dataForKey:</b></td></tr>
-<tr class="separator:a640d9dda030c0c7a69a6149bff6fd368"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab920a7e1b4375c8dbb741287e169c615" id="r_ab920a7e1b4375c8dbb741287e169c615"><td class="memItemLeft" align="right" valign="top"><a id="ab920a7e1b4375c8dbb741287e169c615" name="ab920a7e1b4375c8dbb741287e169c615"></a>
-(id)&#160;</td><td class="memItemRight" valign="bottom">- <b>dataForKey:mutableData:</b></td></tr>
-<tr class="separator:ab920a7e1b4375c8dbb741287e169c615"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c931780f7617625dbe7eb7ba4bc52e7" id="r_a2c931780f7617625dbe7eb7ba4bc52e7"><td class="memItemLeft" align="right" valign="top">(NSData *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#a2c931780f7617625dbe7eb7ba4bc52e7">dataForKey:</a></td></tr>
+<tr class="memdesc:a2c931780f7617625dbe7eb7ba4bc52e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves data for a given key.  <br /></td></tr>
+<tr class="separator:a2c931780f7617625dbe7eb7ba4bc52e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d304b8b001eb0be9bb7938e3e55ed99" id="r_a5d304b8b001eb0be9bb7938e3e55ed99"><td class="memItemLeft" align="right" valign="top">(NSData *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#a5d304b8b001eb0be9bb7938e3e55ed99">dataForKey:mutableData:</a></td></tr>
+<tr class="memdesc:a5d304b8b001eb0be9bb7938e3e55ed99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves data for a given key.  <br /></td></tr>
+<tr class="separator:a5d304b8b001eb0be9bb7938e3e55ed99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab267018c1c7c7e52aae61bcb28f55795" id="r_ab267018c1c7c7e52aae61bcb28f55795"><td class="memItemLeft" align="right" valign="top"><a id="ab267018c1c7c7e52aae61bcb28f55795" name="ab267018c1c7c7e52aae61bcb28f55795"></a>
 (void)&#160;</td><td class="memItemRight" valign="bottom">- <b>dealloc</b></td></tr>
+<tr class="memdesc:ab267018c1c7c7e52aae61bcb28f55795"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cleans up the resources used by the <a class="el" href="interfaceDatabase.html" title="Database Class, interface for LMDB.">Database</a> object. <br /></td></tr>
 <tr class="separator:ab267018c1c7c7e52aae61bcb28f55795"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab8d14cbd6bc21afa3f071fc7259a97f" id="r_aab8d14cbd6bc21afa3f071fc7259a97f"><td class="memItemLeft" align="right" valign="top"><a id="aab8d14cbd6bc21afa3f071fc7259a97f" name="aab8d14cbd6bc21afa3f071fc7259a97f"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>finishTransaction:</b></td></tr>
-<tr class="separator:aab8d14cbd6bc21afa3f071fc7259a97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aaa72975fa324edabd852c85200accd" id="r_a3aaa72975fa324edabd852c85200accd"><td class="memItemLeft" align="right" valign="top"><a id="a3aaa72975fa324edabd852c85200accd" name="a3aaa72975fa324edabd852c85200accd"></a>
-(MDB_txn *)&#160;</td><td class="memItemRight" valign="bottom">- <b>getTransaction</b></td></tr>
+<tr class="memitem:ada2a369da43d915b0c98123a0544ebaa" id="r_ada2a369da43d915b0c98123a0544ebaa"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#ada2a369da43d915b0c98123a0544ebaa">finishTransaction:</a></td></tr>
+<tr class="memdesc:ada2a369da43d915b0c98123a0544ebaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finishes the current database transaction.  <br /></td></tr>
+<tr class="separator:ada2a369da43d915b0c98123a0544ebaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aaa72975fa324edabd852c85200accd" id="r_a3aaa72975fa324edabd852c85200accd"><td class="memItemLeft" align="right" valign="top">(MDB_txn *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#a3aaa72975fa324edabd852c85200accd">getTransaction</a></td></tr>
+<tr class="memdesc:a3aaa72975fa324edabd852c85200accd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves the current database transaction.  <br /></td></tr>
 <tr class="separator:a3aaa72975fa324edabd852c85200accd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab72549ad35e8f0871f6b01ae72242107" id="r_ab72549ad35e8f0871f6b01ae72242107"><td class="memItemLeft" align="right" valign="top"><a id="ab72549ad35e8f0871f6b01ae72242107" name="ab72549ad35e8f0871f6b01ae72242107"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>hasKey:</b></td></tr>
-<tr class="separator:ab72549ad35e8f0871f6b01ae72242107"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab60ccf242f33b3372ce7c44b7f426801" id="r_ab60ccf242f33b3372ce7c44b7f426801"><td class="memItemLeft" align="right" valign="top"><a id="ab60ccf242f33b3372ce7c44b7f426801" name="ab60ccf242f33b3372ce7c44b7f426801"></a>
-(id)&#160;</td><td class="memItemRight" valign="bottom">- <b>initWithEnvironment:name:</b></td></tr>
-<tr class="separator:ab60ccf242f33b3372ce7c44b7f426801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39a568b8118d81265c97d34d81e2d69d" id="r_a39a568b8118d81265c97d34d81e2d69d"><td class="memItemLeft" align="right" valign="top"><a id="a39a568b8118d81265c97d34d81e2d69d" name="a39a568b8118d81265c97d34d81e2d69d"></a>
-(id)&#160;</td><td class="memItemRight" valign="bottom">- <b>mutableDataForKey:</b></td></tr>
-<tr class="separator:a39a568b8118d81265c97d34d81e2d69d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41c1d07c21d7e18d7f0cae7b08733709" id="r_a41c1d07c21d7e18d7f0cae7b08733709"><td class="memItemLeft" align="right" valign="top"><a id="a41c1d07c21d7e18d7f0cae7b08733709" name="a41c1d07c21d7e18d7f0cae7b08733709"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>removeDataForKey:</b></td></tr>
-<tr class="separator:a41c1d07c21d7e18d7f0cae7b08733709"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78f6f9c12a5dde7dac8e5e24e4f94551" id="r_a78f6f9c12a5dde7dac8e5e24e4f94551"><td class="memItemLeft" align="right" valign="top"><a id="a78f6f9c12a5dde7dac8e5e24e4f94551" name="a78f6f9c12a5dde7dac8e5e24e4f94551"></a>
-(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <b>setData:forKey:</b></td></tr>
-<tr class="separator:a78f6f9c12a5dde7dac8e5e24e4f94551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae117ba532176a97b219a0cef99b5fec7" id="r_ae117ba532176a97b219a0cef99b5fec7"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#ae117ba532176a97b219a0cef99b5fec7">hasKey:</a></td></tr>
+<tr class="memdesc:ae117ba532176a97b219a0cef99b5fec7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if a key exists in the database.  <br /></td></tr>
+<tr class="separator:ae117ba532176a97b219a0cef99b5fec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab8f8c4e2aa34c7634998efd3184de7bd" id="r_ab8f8c4e2aa34c7634998efd3184de7bd"><td class="memItemLeft" align="right" valign="top">(<a class="el" href="interfaceDatabase.html">Database</a> *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#ab8f8c4e2aa34c7634998efd3184de7bd">initWithEnvironment:name:</a></td></tr>
+<tr class="memdesc:ab8f8c4e2aa34c7634998efd3184de7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a <a class="el" href="interfaceDatabase.html" title="Database Class, interface for LMDB.">Database</a> object with a given environment and name.  <br /></td></tr>
+<tr class="separator:ab8f8c4e2aa34c7634998efd3184de7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af99ae45a125161a6459fa67a67be1f5d" id="r_af99ae45a125161a6459fa67a67be1f5d"><td class="memItemLeft" align="right" valign="top">(NSMutableData *)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#af99ae45a125161a6459fa67a67be1f5d">mutableDataForKey:</a></td></tr>
+<tr class="memdesc:af99ae45a125161a6459fa67a67be1f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves mutable data for a given key.  <br /></td></tr>
+<tr class="separator:af99ae45a125161a6459fa67a67be1f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7de2f013e7a42e911aa714cee447c767" id="r_a7de2f013e7a42e911aa714cee447c767"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#a7de2f013e7a42e911aa714cee447c767">removeDataForKey:</a></td></tr>
+<tr class="memdesc:a7de2f013e7a42e911aa714cee447c767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes data associated with a given key from the database.  <br /></td></tr>
+<tr class="separator:a7de2f013e7a42e911aa714cee447c767"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabd78d2b18fe07491c976baf60967350" id="r_aabd78d2b18fe07491c976baf60967350"><td class="memItemLeft" align="right" valign="top">(BOOL)&#160;</td><td class="memItemRight" valign="bottom">- <a class="el" href="#aabd78d2b18fe07491c976baf60967350">setData:forKey:</a></td></tr>
+<tr class="memdesc:aabd78d2b18fe07491c976baf60967350"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the data for a key in the database.  <br /></td></tr>
+<tr class="separator:aabd78d2b18fe07491c976baf60967350"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a5a73d3d014bd25b35ca47e67b235cde3" id="r_a5a73d3d014bd25b35ca47e67b235cde3"><td class="memItemLeft" align="right" valign="top"><a id="a5a73d3d014bd25b35ca47e67b235cde3" name="a5a73d3d014bd25b35ca47e67b235cde3"></a>
 <a class="el" href="interfaceDatabaseEnvironment.html">DatabaseEnvironment</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>databaseEnvironment</b></td></tr>
 <tr class="separator:a5a73d3d014bd25b35ca47e67b235cde3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca5c4c1615eb2f4e9c7a21a9556ff764" id="r_aca5c4c1615eb2f4e9c7a21a9556ff764"><td class="memItemLeft" align="right" valign="top"><a id="aca5c4c1615eb2f4e9c7a21a9556ff764" name="aca5c4c1615eb2f4e9c7a21a9556ff764"></a>
-unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>dbi</b></td></tr>
-<tr class="separator:aca5c4c1615eb2f4e9c7a21a9556ff764"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa147515be33b82f50ccd5abebc644a25" id="r_aa147515be33b82f50ccd5abebc644a25"><td class="memItemLeft" align="right" valign="top"><a id="aa147515be33b82f50ccd5abebc644a25" name="aa147515be33b82f50ccd5abebc644a25"></a>
+MDB_dbi&#160;</td><td class="memItemRight" valign="bottom"><b>dbi</b></td></tr>
+<tr class="separator:aa147515be33b82f50ccd5abebc644a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0d8061a061003d09971135d0904d2463" id="r_a0d8061a061003d09971135d0904d2463"><td class="memItemLeft" align="right" valign="top"><a id="a0d8061a061003d09971135d0904d2463" name="a0d8061a061003d09971135d0904d2463"></a>
 MDB_env *&#160;</td><td class="memItemRight" valign="bottom"><b>env</b></td></tr>
 <tr class="separator:a0d8061a061003d09971135d0904d2463"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,8 +168,255 @@ MDB_env *&#160;</td><td class="memItemRight" valign="bottom"><b>env</b></td></tr
 NSString *&#160;</td><td class="memItemRight" valign="bottom"><b>name</b></td></tr>
 <tr class="separator:a40126b60d3c1dee18851bf8a34692b86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p><a class="el" href="interfaceDatabase.html" title="Database Class, interface for LMDB.">Database</a> Class, interface for LMDB. </p>
+</div><h2 class="groupheader">Method Documentation</h2>
+<a id="a2c931780f7617625dbe7eb7ba4bc52e7" name="a2c931780f7617625dbe7eb7ba4bc52e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c931780f7617625dbe7eb7ba4bc52e7">&#9670;&#160;</a></span>dataForKey:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSData *) dataForKey: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves data for a given key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to retrieve the data for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a NSData object associated with the key, or nil </dd></dl>
+
+</div>
+</div>
+<a id="a5d304b8b001eb0be9bb7938e3e55ed99" name="a5d304b8b001eb0be9bb7938e3e55ed99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d304b8b001eb0be9bb7938e3e55ed99">&#9670;&#160;</a></span>dataForKey:mutableData:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSData *) <a class="el" href="#a2c931780f7617625dbe7eb7ba4bc52e7">dataForKey:</a> </td>
+          <td></td>
+          <td class="paramtype">(NSString *)</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">mutableData:</td>
+          <td></td>
+          <td class="paramtype">(BOOL)</td>          <td class="paramname"><span class="paramname"><em>mutableData</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves data for a given key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to retrieve the data for </td></tr>
+    <tr><td class="paramname">mutableData</td><td>if true, returns a mutable NSData object </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>the data associated with the key, or nil </dd></dl>
+
+</div>
+</div>
+<a id="ada2a369da43d915b0c98123a0544ebaa" name="ada2a369da43d915b0c98123a0544ebaa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada2a369da43d915b0c98123a0544ebaa">&#9670;&#160;</a></span>finishTransaction:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) finishTransaction: </td>
+          <td></td>
+          <td class="paramtype">(MDB_txn *)</td>          <td class="paramname"><span class="paramname"><em>transaction</em></span></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Finishes the current database transaction. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transaction</td><td>The transaction to finish </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the transaction was successfully finished, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="a3aaa72975fa324edabd852c85200accd" name="a3aaa72975fa324edabd852c85200accd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aaa72975fa324edabd852c85200accd">&#9670;&#160;</a></span>getTransaction</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (MDB_txn *) getTransaction </td>
+          <td></td>
+          <td class="paramname"><span class="paramname"><em></em></span></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves the current database transaction. </p>
+<dl class="section return"><dt>Returns</dt><dd>the current transaction, nil otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ae117ba532176a97b219a0cef99b5fec7" name="ae117ba532176a97b219a0cef99b5fec7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae117ba532176a97b219a0cef99b5fec7">&#9670;&#160;</a></span>hasKey:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) hasKey: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if a key exists in the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to check </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the key exists, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="ab8f8c4e2aa34c7634998efd3184de7bd" name="ab8f8c4e2aa34c7634998efd3184de7bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8f8c4e2aa34c7634998efd3184de7bd">&#9670;&#160;</a></span>initWithEnvironment:name:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (<a class="el" href="interfaceDatabase.html">Database</a> *) initWithEnvironment: </td>
+          <td></td>
+          <td class="paramtype">(<a class="el" href="interfaceDatabaseEnvironment.html">DatabaseEnvironment</a> *)</td>          <td class="paramname"><span class="paramname"><em>databaseEnvironment_</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">name:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)</td>          <td class="paramname"><span class="paramname"><em>databaseName</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initializes a <a class="el" href="interfaceDatabase.html" title="Database Class, interface for LMDB.">Database</a> object with a given environment and name. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">databaseEnvironment_</td><td>The environment associated with the database </td></tr>
+    <tr><td class="paramname">databaseName</td><td>The name associated with the database </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>an initilized <a class="el" href="interfaceDatabase.html" title="Database Class, interface for LMDB.">Database</a> object </dd></dl>
+
+</div>
+</div>
+<a id="af99ae45a125161a6459fa67a67be1f5d" name="af99ae45a125161a6459fa67a67be1f5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af99ae45a125161a6459fa67a67be1f5d">&#9670;&#160;</a></span>mutableDataForKey:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (NSMutableData *) mutableDataForKey: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Retrieves mutable data for a given key. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to retrieve the data for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a mutable NSData object associated with the key, or nil </dd></dl>
+
+</div>
+</div>
+<a id="a7de2f013e7a42e911aa714cee447c767" name="a7de2f013e7a42e911aa714cee447c767"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7de2f013e7a42e911aa714cee447c767">&#9670;&#160;</a></span>removeDataForKey:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) removeDataForKey: </td>
+          <td></td>
+          <td class="paramtype">(NSString *)</td>          <td class="paramname"><span class="paramname"><em>key</em></span></td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes data associated with a given key from the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">key</td><td>The key to remove the data for </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the data was successfully removed, false otherwise </dd></dl>
+
+</div>
+</div>
+<a id="aabd78d2b18fe07491c976baf60967350" name="aabd78d2b18fe07491c976baf60967350"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabd78d2b18fe07491c976baf60967350">&#9670;&#160;</a></span>setData:forKey:</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">- (BOOL) setData: </td>
+          <td></td>
+          <td class="paramtype">(NSData *)</td>          <td class="paramname"><span class="paramname"><em>data</em></span></td>
+        </tr>
+        <tr>
+          <td class="paramkey">forKey:</td>
+          <td></td>
+          <td class="paramtype">(NSString *)</td>          <td class="paramname"><span class="paramname"><em>key</em></span>&#160;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sets the data for a key in the database. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">data</td><td>The data to store </td></tr>
+    <tr><td class="paramname">key</td><td>The key to associate the data with </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the data was successfully stored, false otherwise </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following files:<ul>
 <li>SharedSource/<b>Database.h</b></li>
+<li>SharedSource/<b>Database.mm</b></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

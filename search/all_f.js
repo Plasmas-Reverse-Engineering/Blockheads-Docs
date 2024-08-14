@@ -13,7 +13,8 @@ var searchData=
   ['placeworkbenchnetrequest_10',['PlaceWorkbenchNetRequest',['../structPlaceWorkbenchNetRequest.html',1,'']]],
   ['plant_11',['Plant',['../interfacePlant.html',1,'']]],
   ['plantcreationnetdata_12',['PlantCreationNetData',['../structPlantCreationNetData.html',1,'']]],
-  ['progress_13',['Work in Progress',['../index.html#progress_sec',1,'']]],
-  ['projectilemanager_14',['ProjectileManager',['../interfaceProjectileManager.html',1,'']]],
-  ['projectilenetrequest_15',['ProjectileNetRequest',['../structProjectileNetRequest.html',1,'']]]
+  ['playerschanged_13',['playersChanged',['../interfaceCommandLineDelegate.html#ad772dba0d68b6ab0890691dffc39f2d9',1,'CommandLineDelegate']]],
+  ['progress_14',['Work in Progress',['../index.html#progress_sec',1,'']]],
+  ['projectilemanager_15',['ProjectileManager',['../interfaceProjectileManager.html',1,'']]],
+  ['projectilenetrequest_16',['ProjectileNetRequest',['../structProjectileNetRequest.html',1,'']]]
 ];

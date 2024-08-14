@@ -11,5 +11,6 @@ var searchData=
   ['mjcolor8_8',['MJColor8',['../structMJColor8.html',1,'']]],
   ['mjmultisound_9',['MJMultiSound',['../interfaceMJMultiSound.html',1,'']]],
   ['mjsound_10',['MJSound',['../interfaceMJSound.html',1,'']]],
-  ['mjsoundmanager_11',['MJSoundManager',['../interfaceMJSoundManager.html',1,'']]]
+  ['mjsoundmanager_11',['MJSoundManager',['../interfaceMJSoundManager.html',1,'']]],
+  ['mutabledataforkey_3a_12',['mutableDataForKey:',['../interfaceDatabase.html#af99ae45a125161a6459fa67a67be1f5d',1,'Database']]]
 ];
