@@ -203,14 +203,13 @@ var NAVTREEINDEX16 =
 "interfaceTorch.html#a043f8cc405854ea004031217d7df9e66":[4,0,116,57],
 "interfaceTorch.html#a07fbf8d78ee8c6e5004aabe88956d210":[4,0,116,31],
 "interfaceTorch.html#a0bc4379e5448c81a35c08d892e5bac0a":[4,0,116,32],
+"interfaceTorch.html#a0df86860cc574bfa8e98abf15b803dcc":[4,0,116,61],
 "interfaceTorch.html#a0fa64cf273e41bc2e26baaf412f693c7":[4,0,116,49],
 "interfaceTorch.html#a1a4a24ec1cf69c71c94cd97aa90941af":[4,0,116,11],
 "interfaceTorch.html#a2032eb7714456280cc5e06abb973e5ef":[4,0,116,33],
 "interfaceTorch.html#a20bb93421375a58d38afd1c1462ee5fb":[4,0,116,18],
-"interfaceTorch.html#a2cf42837bd266cc4d97d0c7109c5a8a9":[4,0,116,59],
 "interfaceTorch.html#a2fb8f5ee63933c4d733ccab685ca9de0":[4,0,116,15],
 "interfaceTorch.html#a339e15422ba13a4819af2e929ecd5743":[4,0,116,28],
-"interfaceTorch.html#a346edb1ddf8f062c8b3068d484ce08b0":[4,0,116,61],
 "interfaceTorch.html#a3af208d10e16ce5233fae1b518a4ae23":[4,0,116,8],
 "interfaceTorch.html#a435e54ec85c42cc5edb0cb6c69886030":[4,0,116,9],
 "interfaceTorch.html#a43cefe05044c76ec405c9c940b783280":[4,0,116,44],
@@ -230,8 +229,8 @@ var NAVTREEINDEX16 =
 "interfaceTorch.html#a817457d4d11e2ea479b0c0462fdf2343":[4,0,116,22],
 "interfaceTorch.html#a83de4618599142eaadca1a1177893fd5":[4,0,116,25],
 "interfaceTorch.html#a84c63e2253528f76bb8b672e256d8214":[4,0,116,26],
+"interfaceTorch.html#a8800401a2eb7f71e8aa8ce72d548bb79":[4,0,116,60],
 "interfaceTorch.html#a891a2ada220c04d690bb154101cc8bc9":[4,0,116,10],
-"interfaceTorch.html#a8b0301bb95882c51a7c6862c0c469d6d":[4,0,116,60],
 "interfaceTorch.html#a937ce7402595a3160e092e7e28b2ba12":[4,0,116,39],
 "interfaceTorch.html#aa2bf42a2452d1afa01bb76436af54d83":[4,0,116,23],
 "interfaceTorch.html#aa353472723cf9bd5705fd721d95a5b55":[4,0,116,43],
@@ -249,5 +248,6 @@ var NAVTREEINDEX16 =
 "interfaceTorch.html#acd49740ff3699dacb912c8c1b000fe9f":[4,0,116,51],
 "interfaceTorch.html#ad0b5941f513b2df1fe990e54c8bafbc2":[4,0,116,1],
 "interfaceTorch.html#ad0f0701dc82ccb9ddd3f72e50548cf8d":[4,0,116,24],
-"interfaceTorch.html#ad31c5cedca3b3fa15b219be9107dab0c":[4,0,116,40]
+"interfaceTorch.html#ad31c5cedca3b3fa15b219be9107dab0c":[4,0,116,40],
+"interfaceTorch.html#ad7bf98c26a2278e8421a26df5de2ae0e":[4,0,116,20]
 };

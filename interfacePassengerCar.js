@@ -60,6 +60,6 @@ var interfacePassengerCar =
     [ "updateNetDataForClient:", "interfacePassengerCar.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfacePassengerCar.html#a8ca652071233b10a4600182cad4c485b", null ],
     [ "waterContentChanged:", "interfacePassengerCar.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfacePassengerCar.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
+    [ "worldChanged:", "interfacePassengerCar.html#a65610279f2219113287fe913d5c094d7", null ],
     [ "worldContentsChanged:", "interfacePassengerCar.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

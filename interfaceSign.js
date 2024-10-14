@@ -80,6 +80,6 @@ var interfaceSign =
     [ "updateNetDataForClient:", "interfaceSign.html#a2bab3d8d7aecf1b190610d981e6759df", null ],
     [ "updatePosition:", "interfaceSign.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceSign.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceSign.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
+    [ "worldChanged:", "interfaceSign.html#aa472bb341115ff690c3d1a0abd11783f", null ],
     [ "worldContentsChanged:", "interfaceSign.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

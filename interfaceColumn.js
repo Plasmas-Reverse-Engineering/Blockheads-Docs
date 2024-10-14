@@ -60,6 +60,6 @@ var interfaceColumn =
     [ "updateNetDataForClient:", "interfaceColumn.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceColumn.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceColumn.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceColumn.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
+    [ "worldChanged:", "interfaceColumn.html#a7657f99d5dd39c060aecbdeba998720f", null ],
     [ "worldContentsChanged:", "interfaceColumn.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

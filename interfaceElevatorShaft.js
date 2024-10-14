@@ -60,6 +60,6 @@ var interfaceElevatorShaft =
     [ "updateNetDataForClient:", "interfaceElevatorShaft.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceElevatorShaft.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceElevatorShaft.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceElevatorShaft.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
+    [ "worldChanged:", "interfaceElevatorShaft.html#af879b8428b318f28a2b06bc887dd5391", null ],
     [ "worldContentsChanged:", "interfaceElevatorShaft.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

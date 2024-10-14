@@ -60,7 +60,7 @@ var NAVTREEINDEX =
 "interfacePlant.html#a610ebd8c35aacb80c3a87f7e1c000ca5",
 "interfaceSign.html#a2d4bd951c8da17b1d65ffcd2d25432d8",
 "interfaceSteamTrain.html#ae613918bc8d92d1021660557ac5def74",
-"interfaceTorch.html#ad7bf98c26a2278e8421a26df5de2ae0e",
+"interfaceTorch.html#ada6bec0faaa11abee81df6296f8590be",
 "interfaceTrainStation.html#a2bec62fd7449c3fed7f45a937754cb7d",
 "interfaceVinePlant.html#a7881fa51a104b1633a9bb15e6ec86fb7",
 "interfaceWorkbench.html#a3325dff1b3a83af6bf21e4bd01ccd79f"

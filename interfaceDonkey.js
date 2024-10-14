@@ -60,6 +60,6 @@ var interfaceDonkey =
     [ "updateNetDataForClient:", "interfaceDonkey.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceDonkey.html#ae4ded724bdf74c97b13efc8767def870", null ],
     [ "waterContentChanged:", "interfaceDonkey.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceDonkey.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
+    [ "worldChanged:", "interfaceDonkey.html#af064fad97badc996b1660f115788269e", null ],
     [ "worldContentsChanged:", "interfaceDonkey.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

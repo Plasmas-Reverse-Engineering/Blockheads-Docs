@@ -60,6 +60,6 @@ var interfaceFreightCar =
     [ "updateNetDataForClient:", "interfaceFreightCar.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceFreightCar.html#a96796db4149eed7d6337f16a28a2efd6", null ],
     [ "waterContentChanged:", "interfaceFreightCar.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceFreightCar.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
+    [ "worldChanged:", "interfaceFreightCar.html#a65610279f2219113287fe913d5c094d7", null ],
     [ "worldContentsChanged:", "interfaceFreightCar.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

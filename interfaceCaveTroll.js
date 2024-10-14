@@ -59,6 +59,6 @@ var interfaceCaveTroll =
     [ "updateNetDataForClient:", "interfaceCaveTroll.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceCaveTroll.html#ae4ded724bdf74c97b13efc8767def870", null ],
     [ "waterContentChanged:", "interfaceCaveTroll.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceCaveTroll.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldContentsChanged:", "interfaceCaveTroll.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
+    [ "worldChanged:", "interfaceCaveTroll.html#a896f8739066393218371fcb2dfe08b7b", null ],
+    [ "worldContentsChanged:", "interfaceCaveTroll.html#ae081e6e02afa244810a0a4086d6d8163", null ]
 ];

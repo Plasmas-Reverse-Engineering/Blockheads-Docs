@@ -80,6 +80,6 @@ var interfaceTradePortal =
     [ "updateNetDataForClient:", "interfaceTradePortal.html#a2bab3d8d7aecf1b190610d981e6759df", null ],
     [ "updatePosition:", "interfaceTradePortal.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceTradePortal.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceTradePortal.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldContentsChanged:", "interfaceTradePortal.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
+    [ "worldChanged:", "interfaceTradePortal.html#a63fa3139ea76100a8eff354590e4ffc6", null ],
+    [ "worldContentsChanged:", "interfaceTradePortal.html#a77633bde7b2e665ae409c36d301e993a", null ]
 ];

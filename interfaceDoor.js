@@ -60,6 +60,6 @@ var interfaceDoor =
     [ "updateNetDataForClient:", "interfaceDoor.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceDoor.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceDoor.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceDoor.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
+    [ "worldChanged:", "interfaceDoor.html#a48054103a7a1331689a7c383c4e26754", null ],
     [ "worldContentsChanged:", "interfaceDoor.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];

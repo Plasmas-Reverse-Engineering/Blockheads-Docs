@@ -59,6 +59,6 @@ var interfaceBlockhead =
     [ "updateNetDataForClient:", "interfaceBlockhead.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceBlockhead.html#a1f76d4b6cef62c758f6d418e8303ddf3", null ],
     [ "waterContentChanged:", "interfaceBlockhead.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceBlockhead.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldContentsChanged:", "interfaceBlockhead.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
+    [ "worldChanged:", "interfaceBlockhead.html#a42cd9b1bbba757aa89eacd270ac50b8d", null ],
+    [ "worldContentsChanged:", "interfaceBlockhead.html#a80ee2cc2a0e7d190522537333fb44ac0", null ]
 ];

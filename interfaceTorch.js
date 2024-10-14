@@ -59,7 +59,7 @@ var interfaceTorch =
     [ "update:accurateDT:isSimulation:", "interfaceTorch.html#ae00b0d4c598cfa0d53595369c6986ec8", null ],
     [ "updateNetDataForClient:", "interfaceTorch.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceTorch.html#abb50d08e31099a08bc6975907d4056cc", null ],
-    [ "waterContentChanged:", "interfaceTorch.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceTorch.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldContentsChanged:", "interfaceTorch.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
+    [ "waterContentChanged:", "interfaceTorch.html#af01539ae9714d4418962bf682ed60251", null ],
+    [ "worldChanged:", "interfaceTorch.html#a8800401a2eb7f71e8aa8ce72d548bb79", null ],
+    [ "worldContentsChanged:", "interfaceTorch.html#a0df86860cc574bfa8e98abf15b803dcc", null ]
 ];

@@ -80,6 +80,6 @@ var interfaceChest =
     [ "updateNetDataForClient:", "interfaceChest.html#a2bab3d8d7aecf1b190610d981e6759df", null ],
     [ "updatePosition:", "interfaceChest.html#a8f3727d8b1b8a52495c4390dfafbb72e", null ],
     [ "waterContentChanged:", "interfaceChest.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceChest.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
-    [ "worldContentsChanged:", "interfaceChest.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
+    [ "worldChanged:", "interfaceChest.html#a0267e1807a8a94c569530ae31808b99c", null ],
+    [ "worldContentsChanged:", "interfaceChest.html#a39ee9ecf78f6bf5802c97619f4051cc8", null ]
 ];

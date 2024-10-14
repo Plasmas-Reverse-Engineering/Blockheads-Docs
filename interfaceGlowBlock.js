@@ -60,6 +60,6 @@ var interfaceGlowBlock =
     [ "updateNetDataForClient:", "interfaceGlowBlock.html#a043f8cc405854ea004031217d7df9e66", null ],
     [ "updatePosition:", "interfaceGlowBlock.html#abb50d08e31099a08bc6975907d4056cc", null ],
     [ "waterContentChanged:", "interfaceGlowBlock.html#a2cf42837bd266cc4d97d0c7109c5a8a9", null ],
-    [ "worldChanged:", "interfaceGlowBlock.html#a8b0301bb95882c51a7c6862c0c469d6d", null ],
+    [ "worldChanged:", "interfaceGlowBlock.html#afbe9b3dbf473c601187bb670ad708dcd", null ],
     [ "worldContentsChanged:", "interfaceGlowBlock.html#a346edb1ddf8f062c8b3068d484ce08b0", null ]
 ];
